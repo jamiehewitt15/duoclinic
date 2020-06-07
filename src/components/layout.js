@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "./header"
+import Footer from "./footer"
 import "./styles/layout.css"
 
 
@@ -10,6 +11,7 @@ export default function Layout({ children }) {
         <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
         {children}
         </div>
+        <Footer />
       </div>
     
   )
