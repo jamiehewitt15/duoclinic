@@ -4,8 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Layout from "./components/layout"
-import './styles/style.min.css'
-//import 'https://w10.fit/wp-content/uploads/hummingbird-assets/b7542256f39ec5b29a660c77ce5b9e42.css'
+import './styles/styles.min.css'
+import './styles/slider.css'
+import './styles/lazyLoad.css'
+import './styles/plugin.css'
+import './styles/styles.css'
 
 ReactDOM.render(
   <React.StrictMode>
