@@ -1,5 +1,6 @@
 import React from "react"
-import "componentStyles.css"
+import "./componentStyles.css"
+import "./styles/header.css"
 
 export default function Header() {
       return (
@@ -20,4 +21,3 @@ export default function Header() {
         </div>
       );
     }
-  });
