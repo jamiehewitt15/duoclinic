@@ -1,0 +1,181 @@
+
+/* Style the header: fixed position (always stay at the top) */
+.header1 {
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    width: 100%;
+  }
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 3px;
+    background: transparent;
+  }
+  
+/* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 3px;
+    background: #e7420c;
+    width: 0%;
+  }
+  
+  body {
+  opacity: 1 !important;
+  }
+
+.tcode-filters-content,
+    .tcode-filters-wrapper {
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .tcode-filters-type {
+        color: #000000;
+    }
+
+    .tcode-filtered-term {
+        background-color: #000000;
+    }
+
+    .tcode-event-schedule .slick-arrow,
+    .tcode-event-schedule .slick-arrow:hover,
+    .tcode-event-schedule .slick-arrow:focus,
+    .tcode-event-schedule #days-carousel > button{
+        background-color: rgba(0,0,0, .1);
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day.active:before {
+        border-top-color: #000000 !important;
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day {
+        -webkit-transition: color 500ms ease, background 500ms ease;
+        -moz-transition: color 500ms ease, background 500ms ease;
+        -ms-transition: color 500ms ease, background 500ms ease;
+        -o-transition: color 500ms ease, background 500ms ease;
+        transition: color 500ms ease, background 500ms ease;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day.active,
+    .tcode-event-schedule .scheduled-days .scheduled-day:hover {
+        background-color: #000000;
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day:hover {
+        background-color: rgba(0,0,0, .5);
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day.active:hover {
+        -moz-transition: color 0s, background 0s;
+        -webkit-transition: color 0s, background 0s;
+        -o-transition: color 0s, background 0s;
+        transition: color 0s, background 0s;
+        background-color: #000000;
+    }
+
+
+    .tcode-event-schedule .scheduled-locations .scheduled-location {
+        -webkit-box-shadow: inset 0 -1px 0 #000000;
+        -moz-box-shadow: inset 0 -1px 0 #000000;
+        box-shadow: inset 0 -1px 0 #000000;
+        -webkit-animation: shadowFadeOut 300ms;
+        -o-animation: shadowFadeOut 300ms;
+        animation: shadowFadeOut 300ms;
+    }
+
+    .tcode-event-schedule .scheduled-locations .scheduled-location.active,
+    .tcode-event-schedule .scheduled-locations .scheduled-location:hover {
+        -webkit-box-shadow: inset 0 -6px 0 rgba(0,0,0, .5);
+        -moz-box-shadow: inset 0 -6px 0 rgba(0,0,0, .5);
+        box-shadow: inset 0 -6px 0 rgba(0,0,0, .5);
+        -webkit-animation: shadowFadeIn 100ms;
+        -o-animation: shadowFadeIn 100ms;
+        animation: shadowFadeIn 100ms;
+    }
+
+    .tcode-event-schedule .scheduled-locations .scheduled-location.active {
+        -webkit-box-shadow: inset 0 -6px 0 #000000;
+        -moz-box-shadow: inset 0 -6px 0 #000000;
+        box-shadow: inset 0 -6px 0 #000000;
+    }
+
+    @keyframes shadowFadeIn {
+        0% { box-shadow: inset 0 -1px 0 #000000; }
+        50% { box-shadow: inset 0 -3px 0 rgba(0,0,0, .8); }
+        100% { box-shadow: inset 0 -6px 0 rgba(0,0,0, .5); }
+    }
+
+    @keyframes shadowFadeOut {
+        0% { box-shadow: inset 0 -6px 0 rgba(0,0,0, .5); }
+        50% { box-shadow: inset 0 -3px 0 rgba(0,0,0, .8); }
+        100% { box-shadow: inset 0 -1px 0 #000000; }
+    }
+
+    .tcode-event-schedule .scheduled-event {
+        border-bottom: 1px solid;
+        border-color: #000000;
+    }
+
+            
+    .tcode-event-schedule svg path,
+    .tcode-event-schedule svg circle {
+        fill: #000000 !important;
+    }
+
+    .tcode-event-schedule .scheduled-event .svgContainer:hover {
+        background-color: #000000;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-transition: background 500ms ease;
+        -moz-transition: background 500ms ease;
+        -ms-transition: background 500ms ease;
+        -o-transition: background 500ms ease;
+        transition: background 500ms ease;
+    }
+
+    .tcode-event-schedule .scheduled-event .svgContainer:hover svg path,
+    .tcode-event-schedule .scheduled-event .svgContainer:hover svg circle {
+        fill: #fff !important;
+        -webkit-transition: fill 500ms ease;
+        -moz-transition: fill 500ms ease;
+        -ms-transition: fill 500ms ease;
+        -o-transition: fill 500ms ease;
+        transition: fill 500ms ease;
+    }
+
+    .tcode-event-schedule .scheduled-event .event-time {
+        color: #000000;
+    }
+
+    .tcode-event-schedule .scheduled-event .event-icon {
+        color: #000000;
+    }
+
+        .tcode-event-schedule .scheduled-event .event-excerpt .event-content a {
+        color: #000000;
+    }
+    
+    
+    .tcode-social-icon:hover {
+        background-color: #000000;
+        -webkit-transition: background 500ms ease;
+        -moz-transition: background 500ms ease;
+        -ms-transition: background 500ms ease;
+        -o-transition: background 500ms ease;
+        transition: background 500ms ease;
+    }
+
+        .tcode-event-schedule .scheduled-days .scheduled-day .row-day {
+        padding: 26px 0;
+    }
+    .tcode-event-schedule.tcode-size-small .scheduled-days .scheduled-day .row-day {
+        padding: 18px 0;
+    }
+    
+    @media (min-width: 768px) {
+        }
+
+    @media (min-width: 992px) {
+        }
