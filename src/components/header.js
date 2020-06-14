@@ -1,11 +1,14 @@
 import React from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
+import logo from "./images/logo.png"
 
 export default function Header() {
       return (
         <div id="nav" className="nav-underline">
-          <div id="logo"><a href="/">&nbsp;</a></div>
+          <div id="logo"><a href="/">
+          <img class="logo" src={logo}  alt="logo" />
+            </a></div>
           <div id="covid-container">
             <a id="covid-link" href="https://w10.fit/our-covid-19-plan/">Our Covid-19 plan</a>
           </div>

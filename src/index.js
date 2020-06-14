@@ -14,7 +14,7 @@ import './styles/styles.css'
 //import './js/jquery.bxslider.min.js'
 //import './js/jquery.cycle2.carousel.js'
 //import './js/jquery.min.js'
-//import './js/417f6a9d9fac86051ba623e4b4356241.js'
+
 ReactDOM.render(
   <React.StrictMode>
     <Layout>
