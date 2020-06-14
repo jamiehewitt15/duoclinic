@@ -1,10 +1,12 @@
 import React from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
+import "./styles/plugin.css"
+import Background from "./images/Background.jpg"
 
 export default function Hero() {
       return (      
-        <section className="hero home">
+        <section className="hero home" style={{ backgroundImage: `url(${Background})` }}>
         <div className="middle">
           <div className="desktop tablet">
             <h2 className="cd-headline clip white"><span />

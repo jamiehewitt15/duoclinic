@@ -9,6 +9,11 @@ import './styles/slider.css'
 import './styles/lazyLoad.css'
 import './styles/plugin.css'
 import './styles/styles.css'
+//import './js/colophon.js'
+//import './js/onScroll.js'
+//import './js/jquery.bxslider.min.js'
+//import './js/jquery.cycle2.carousel.js'
+//import './js/jquery.min.js'
 
 ReactDOM.render(
   <React.StrictMode>
