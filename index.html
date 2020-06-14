@@ -41,33 +41,7 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 
 
 
-<script>
 
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-  
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    document.getElementById("nav").style.height = "56px";
-    document.getElementById("nav").style.padding = "18px 0 0 0";
-    document.getElementById("logo").style.height = "32px";  
-    document.getElementById("logo").style.width = "93px";
-    document.getElementById("logo").style.top = "12px";
-  } else {
-    document.getElementById("nav").style.height = "96px";
-    document.getElementById("nav").style.padding = "38px 0 0 0";
-    document.getElementById("logo").style.height = "48px";
-    document.getElementById("logo").style.width = "139px";
-    document.getElementById("logo").style.top = "24px";
-  }
-  
-}
-</script>
 
 <script>$.fn.cycle.defaults.autoSelector = '.slideshow';</script>
 
@@ -391,26 +365,7 @@ var wpifs_options = {"container":".blogmain","post":".latest","pagination":".nav
 
 
 
-<section class="featured light bb96">
-<div class="heading">
-<h2>As featured in</h2>
-</div>
 
-<ul class="slider slidehome">       
-    <div class="slideshow" data-cycle-fx=carousel data-cycle-timeout=1000 data-cycle-carousel-visible=8 data-cycle-carousel-fluid=false data-cycle-slides="li">
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo1.svg" class="logo1" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo3.svg" class="logo3" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo4.svg" class="logo4" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo5.svg" class="logo5" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo6.svg" class="logo6" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo7.svg" class="logo7" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo8.svg" class="logo8" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo9.svg" class="logo9" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo10.svg" class="logo10" /></li>
-        <li><img src="https://w10.fit/wp-content/themes/fury-w10/svg/logo11.svg" class="logo11" /></li> 
-    </div>
-</ul>       
-</section>
 
 
 <iframe src="https://theifba.com/certificate/?g=8029&bg=g&t=true&l=true" width="100%" style="border:0;float:left;" height="300px"></iframe>
