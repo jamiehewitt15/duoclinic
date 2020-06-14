@@ -135,7 +135,7 @@ body {
 	background: #fff;
 	
 	margin: 0;
-    font: 16px suisseintl_light;
+    /* font: 16px suisseintl_light; */
 	color: #999;
 	letter-spacing: 1px;
 }
@@ -161,7 +161,7 @@ a {
 
 .inner.white h1,
 h2 {
-    font: 40px suisseintl_light;
+    /* font: 40px suisseintl_light; */
     line-height: 48px;
     color: #999;
     text-align: center;
@@ -176,7 +176,7 @@ h3 {
 }
 
 h3.soft  {
-    font: 30px suisseintl_light;
+    /* font: 30px suisseintl_light; */
     line-height: 40px;
     color: #999;
     text-align: center;
@@ -4175,7 +4175,7 @@ html div#om-qyum5y3y6bgoqo5h48hu-optin .Campaign__innerWrapper {
 }
 
 html div#om-qyum5y3y6bgoqo5h48hu-optin .Campaign__innerWrapper .huntingtonbeach-TextElement--content p strong {
-    font: 40px suisseintl_light;
+    /* font: 40px suisseintl_light; */
     line-height: 48px;
     color: #999;
     text-align: center;
@@ -5083,7 +5083,7 @@ dl.dual dd.middle {
 }
 
 .history .inner h2 {
-    font: 30px suisseintl_light;
+    /* font: 30px suisseintl_light; */
     line-height: 40px;
 }
 
@@ -5149,7 +5149,7 @@ dl.mixture dd p {
 }
 
 .w996 h2 {
-    font: 30px suisseintl_light;
+    /* font: 30px suisseintl_light; */
     line-height: 40px;
 }
 
@@ -6549,7 +6549,7 @@ dl.mixture dd p {
 }
 
 .aboutnav.show ul li a {
-    font: 30px suisseintl_light;
+    /* font: 30px suisseintl_light; */
     line-height: 40px;
     padding: 0;
     height: inherit;
@@ -7043,7 +7043,7 @@ html div#om-qyum5y3y6bgoqo5h48hu-optin .Campaign__innerWrapper {
 }
 
 html div#om-qyum5y3y6bgoqo5h48hu-optin .Campaign__innerWrapper .huntingtonbeach-TextElement--content p strong {
-    font: 30px suisseintl_light;
+    /* font: 30px suisseintl_light; */
     line-height: 40px;
 }
 

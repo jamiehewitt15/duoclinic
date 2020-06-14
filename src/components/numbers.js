@@ -4,13 +4,14 @@ import "./styles/numbers.css"
 import image1 from "./images/method-draw-image-1.svg"
 import image2 from "./images/method-draw-image-2.svg"
 import image3 from "./images/method-draw-image-3.svg"
+import image4 from "./images/method-draw-image-4.svg"
 
 export default function Numbers() {
       return (      
         <section className="numbers light">
         <div className="holder">
           <div className="heading b64">
-            <h2>What makes personal training<br /> at Duo Clinic so different?</h2>
+            <h2 class="specialHeading">What makes personal training<br /> at Duo Clinic so different?</h2>
             <p className="center">At Duo Clinic, we focus on what’s important: you and your goals. Nothing else matters.<br />  Join us, and you’ll feel the difference, in every sense.</p>
           </div>
         </div>
@@ -62,7 +63,7 @@ export default function Numbers() {
           </dl>
           <dl className="right">
             <dt>
-              <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgHomeCoaching.svg" className="desktop tablet" alt="gym icon"  />
+              <img src={image4} className="desktop tablet" alt="gym icon"  />
               <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgHomeCoachingMob.svg" className="mobile"  alt="gym icon" />
             </dt>
             <dd>
