@@ -3,6 +3,7 @@ import "./componentStyles.css"
 import "./styles/numbers.css"
 import image1 from "./images/method-draw-image-1.svg"
 import image2 from "./images/method-draw-image-2.svg"
+import image3 from "./images/method-draw-image-3.svg"
 
 export default function Numbers() {
       return (      
@@ -46,7 +47,7 @@ export default function Numbers() {
           </dl>
           <dl>
             <dt>
-              <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgHomeTraining.svg" className="desktop tablet"  alt="gym icon" />
+              <img src={image3} className="desktop tablet"  alt="gym icon" />
               <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgHomeTrainingMob.svg" className="mobile"  alt="gym icon" />
             </dt>
             <dd>
