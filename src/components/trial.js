@@ -2,7 +2,7 @@ import React from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
 
-export default function Numbers() {
+export default function Trial() {
       return (      
         <section className="hero mini trial">
         <div className="middle">
