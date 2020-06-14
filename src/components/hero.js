@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="middle">
           <div className="desktop tablet">
             <h2 className="cd-headline clip white"><span />
-            <a href="" class="typewrite" data-period="2000" data-type='[ 
+            <a href="" class="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
               "Get in the best shape of your life", 
               "Look better, feel better, live better", 
               "Made for you and your goals", 
@@ -29,8 +29,8 @@ export default function Hero() {
             <h2>Get in the best<br /> shape of your life</h2>
           </div>
           <ul className="buttons">
-            <li><a href="https://w10.fit/about/" className="button white"><span>Learn More</span></a></li>
-            <li><a href="https://w10.fit/getstarted/" className="button white"><span>Get Started</span></a></li>
+            <li><a href="https://w10.fit/about/" className="button white"><span class="heroButton">Learn More</span></a></li>
+            <li><a href="https://w10.fit/getstarted/" className="button white"><span class="heroButton">Get Started</span></a></li>
           </ul>
         </div>
         <div className="down bounce">

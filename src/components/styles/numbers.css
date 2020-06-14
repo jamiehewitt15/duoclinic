@@ -14,4 +14,18 @@
 }
 .no.title{
     color: #29888e;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300;
+}
+.inner.white h1, h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300;
+    font-size: 35px;
+}
+.heading p {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif !important;
 }
