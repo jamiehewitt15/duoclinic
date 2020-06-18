@@ -73,3 +73,12 @@ h4 {
 .specialHeading{
   font-family: 'Montserrat', sans-serif !important;
 }
+footer {
+    padding-top: 30px;
+}
+.footerList{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.newsletter input[type="text"], .newsletter input[type="email"] {
+  font-family: 'Montserrat', sans-serif !important; 
+}
