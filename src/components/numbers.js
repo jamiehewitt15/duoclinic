@@ -8,10 +8,10 @@ import image4 from "./images/method-draw-image-4.svg"
 
 export default function Numbers() {
       return (      
-        <section className="numbers light">
+        <section id="numbers" className="numbers light">
         <div className="holder">
           <div className="heading b64">
-            <h2 class="specialHeading">What makes personal training<br /> at Duo Clinic so different?</h2>
+            <h2 class="specialHeading blue">What makes personal training<br /> at Duo Clinic so different?</h2>
             <p className="center">At Duo Clinic, we focus on what’s important: you and your goals. Nothing else matters.<br />  Join us, and you’ll feel the difference, in every sense.</p>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function Numbers() {
                 <div className="gap">
                   <div className="no desktop tablet title">03. Customer service</div>
                   <h4><div className="mobile no">03. Customer service </div>It’s all about you</h4>
-                  <p>At W10, everything we do is driven by your personal needs and goals. That’s why we’ve developed a professional, customer-focused service ethos built on industry-defining systems and standards.</p>
+                  <p>At Duo Clinic, everything we do is driven by your personal needs and goals. That’s why we’ve developed a professional, customer-focused service ethos built on industry-defining systems and standards.</p>
                 </div>
               </div>
             </dd>
