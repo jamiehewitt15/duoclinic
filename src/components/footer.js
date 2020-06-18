@@ -7,29 +7,16 @@ export default function Footer() {
             <div className="frow">
               <div className="frow1">
                 <ul>
-                  <li><a href="/getstarted/">Get Started</a></li> 
-                  <li><a href="/about/">About</a></li>
-                  <li><a href="/womens-fitness/">Womens Fitness</a></li> 
-                  <li><a href="/mens-fitness/">Mens Fitness</a></li>  
-                  <li><a href="/personal-training/">Personal Training</a></li>  
-                  <li><a href="/small-group-personal-training/">Small Group Personal Training</a></li>  
-                  <li><a href="/one-2-one-personal-training/">One-to-One Personal Training</a></li>  
-                  <li><a href="/fitness-over-50/">Fitness After 50</a></li>  
-                  <li><a href="/athlete-programme/">W10 Athlete Programme</a></li>  
+                  <li class="footerList"><a href="/getstarted/">Get Started</a></li> 
+                  <li class="footerList"><a href="/about/">About</a></li> 
                 </ul>
               </div>    
               <div className="frow2">
                 <ul>
-                  <li><a href="/timetable/">Classes</a></li>   
-                  <li><a href="/the-space/">The Space</a></li>   
-                  <li><a href="/blog/">Blog</a></li>  
+                  <li class="footerList"><a href="/timetable/">Classes</a></li>   
                   {/*   <li><a href="/press/">Press</a></li>  */}
-                  <li><a href="/ebooks/">e-Books</a></li> 
-                  <li><a href="/contact/">Contact</a></li> 
-                  <li><a href="/callback/">Callback</a></li> 
-                  <li><a href="/contact#emailus">Email us</a></li> 
-                  <li><a href="/member/">Members Area</a></li> 
-                  <li><a href="/charity/">Charity Partners</a></li> 
+                  <li class="footerList"><a href="/contact/">Contact</a></li> 
+                  <li class="footerList"><a href="/contact#emailus">Email us</a></li> 
                 </ul>
               </div>
               <div className="frow3">
@@ -44,21 +31,21 @@ export default function Footer() {
                     <input type="submit" defaultValue="+" />
                   </form>
                 </div>
-                <ul className="socials">
+                {/* <ul className="socials">
                   <h4>Follow Us</h4>
                   <li><a href="https://www.facebook.com/w10fit/" className="facebook" target="_blank">&nbsp;</a></li>
                   <li><a href="https://www.instagram.com/w10fit/" className="instagram" target="_blank">&nbsp;</a></li>
                   <li><a href="https://twitter.com/w10fit" className="twitter" target="_blank">&nbsp;</a></li>
-                </ul>
+                </ul> */}
               </div>
-              <iframe src="https://theifba.com/certificate/?g=8029&c=w&t=true&align=left" width="20%" style={{border: 0, width: '100%', marginTop: '20px', opacity: '0.3'}} height="120px" />
+              {/* <iframe src="https://theifba.com/certificate/?g=8029&c=w&t=true&align=left" width="20%" style={{border: 0, width: '100%', marginTop: '20px', opacity: '0.3'}} height="120px" /> */}
             </div>
             <div className="end">
-              <div className="mobile pin">&nbsp;</div>
-              <a href="https://www.google.com/maps?cid=13584322199484334831" target="blank" className="pin">202-208 Kensal Road, London W10 5BN</a>
-              <div className="line line110">&nbsp;</div>
+              {/* <div className="mobile pin">&nbsp;</div> */}
+              {/* <a href="https://www.google.com/maps?cid=13584322199484334831" target="blank" className="pin">202-208 Kensal Road, London W10 5BN</a>
+              <div className="line line110">&nbsp;</div> */}
               <p className="terms"><strong><a href="https://w10.fit/privacy-policy/">Privacy Policy</a> / <a href="https://w10.fit/cookie-policy/">Cookie Policy</a> / <a href="https://w10.fit/terms-conditions/">Terms &amp; Conditions</a></strong></p><strong>
-                <p className="small">© 2019 W10. All Rights Reserved. Registered Office: The Basement, 202-208 Kensal Road, London W10 5BN. Registered Company No. 07566945.</p>
+                <p className="small">© 2019 Duo Clinic. All Rights Reserved. Registered Office: Fulham, London W10 5BN. Registered Company No. 07566945.</p>
               </strong></div><strong>
             </strong></footer><strong>
           </strong></div>

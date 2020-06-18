@@ -10,7 +10,7 @@ export default function Header() {
           <img class="logo" src={logo}  alt="logo" />
             </a></div>
           <div id="covid-container">
-            <a id="covid-link" href="https://w10.fit/our-covid-19-plan/">Our Covid-19 plan</a>
+            <a id="covid-link" href="./">Our Covid-19 plan</a>
           </div>
           <div className="links">
             <a href="/getstarted/">Get Started</a>
