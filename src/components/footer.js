@@ -8,15 +8,20 @@ export default function Footer() {
               <div className="frow1">
                 <ul>
                   <li class="footerList"><a href="/getstarted/">Get Started</a></li> 
+                  <li class="footerList"><a href="/timetable/">Classes</a></li>   
                   <li class="footerList"><a href="/about/">About</a></li> 
+                  <li class="footerList"><a href="/contact/">Contact</a></li> 
+                  <li class="footerList"><a href="mailto: info@duoclinic.co">Email us</a></li> 
                 </ul>
               </div>    
               <div className="frow2">
                 <ul>
-                  <li class="footerList"><a href="/timetable/">Classes</a></li>   
+                <li class="footerList"><a href="mailto: info@duoclinic.co">info@duoclinic.co</a></li> 
+                <li class="footerList"><a href="tel:07900653068">07900 653068</a></li> 
+                <li class="footerList"><a href="https://www.duoclinic.co/privacy-policy/">Privacy Policy</a></li>
+                
                   {/*   <li><a href="/press/">Press</a></li>  */}
-                  <li class="footerList"><a href="/contact/">Contact</a></li> 
-                  <li class="footerList"><a href="/contact#emailus">Email us</a></li> 
+                  
                 </ul>
               </div>
               <div className="frow3">

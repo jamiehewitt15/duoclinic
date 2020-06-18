@@ -13,10 +13,9 @@ export default function Header() {
             <a id="covid-link" href="./">Our Covid-19 plan</a>
           </div>
           <div className="links">
-            <a href="/getstarted/">Get Started</a>
-            <a href="/about/">About</a>
+            <a href="#trial">Get Started</a>
+            <a href="#numbers">About</a>
             <a href="/personal-training/">Personal Training</a>
-            <a href="/blog">Blog</a>
             <a href="/contact/">Contact</a>
             <a href="#" className="ham">&nbsp;</a>
           </div>  
