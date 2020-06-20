@@ -30,7 +30,7 @@ export default function Video() {
               </blockquote>
             </div>
           </li>
-          <li>
+          {/* <li>
             <div className="player">
               <div className="lines linesleft">
                 <div className="wistia_responsive_padding" style={{padding: '56.25% 0 0 0', position: 'relative'}}>
@@ -40,9 +40,9 @@ export default function Video() {
                         <div className="videoContainer">
                         <iframe title="video2" className="iframeVideo" width="560" height="315" src="https://www.youtube.com/embed/LLe408h_cL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                              
-                        {/* <div className="middle">
+                         <div className="middle">
                             <div className="text"></div>
-                        </div> */}
+                        </div> 
                         </div>
 
 
@@ -55,7 +55,7 @@ export default function Video() {
                 <cite style={{fontFamily: 'Montserrat'}}>David <i>&nbsp;</i></cite>
               </blockquote>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
