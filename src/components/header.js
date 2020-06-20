@@ -23,3 +23,14 @@ export default function Header() {
         </div>
       );
     }
+
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("logo").style.height = "30px !important";
+  } else {
+    document.getElementById("logo").style.height = "70px";
+  }
+}

@@ -7246,7 +7246,7 @@ span.sbi-screenreader + svg{
           padding: 0 75px 0 20px !important;
     max-width: 100% !important;
     }
-    .Campaign__canvas .Campaign__innerWrapper > button:not([class*="-CloseButton"]]){
+    .Campaign__canvas .Campaign__innerWrapper > button:not([class*="-CloseButton"]){
         margin-right: 15px !important;
     }
   html div .Campaign__innerWrapper button[class*="-CloseButton"]{
