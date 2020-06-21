@@ -11,30 +11,20 @@ export default function Header() {
           <img class="logo" src={logo}  alt="logo" />
             </a></div>
           <div id="covid-container">
-            <a id="covid-link" href="./">Our Covid-19 plan</a>
+          <Link id="covid-link" to="/covid">Our Covid-19 plan</Link>
           </div>
           <div className="links">
             
             <nav>
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
-                </li>
-                <li>
-                  <Link to="/users">Users</Link>
-                </li>
-              </ul>
+            <a href="#trial">Get Started</a>
+            <a href="#numbers">About</a>
+            {/* <a href="/personal-training/">Personal Training</a> */}
+            <Link to="/contact">Contact</Link>
             </nav>
             
             
-            <a href="#trial">Get Started</a>
-            <a href="#numbers">About</a>
-            <a href="/personal-training/">Personal Training</a>
-            <a href="/contact/">Contact</a>
-            <a href="#" className="ham">&nbsp;</a>
+            
+            
           </div>  
           <a id="get-started" href="/getstarted/">Try Us</a>
         </div>
