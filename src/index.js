@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Layout from "./components/layout"
 import './styles/styles.min.css'
@@ -9,6 +9,7 @@ import './styles/slider.css'
 import './styles/lazyLoad.css'
 import './styles/plugin.css'
 import './styles/styles.css'
+import App from './App';
 //import './js/colophon.js'
 //import './js/onScroll.js'
 //import './js/jquery.bxslider.min.js'
@@ -18,7 +19,7 @@ import './styles/styles.css'
 ReactDOM.render(
   <React.StrictMode>
     <Layout>
-      <App />
+    <App />
     </Layout>
   </React.StrictMode>,
   document.getElementById('root')
