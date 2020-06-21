@@ -32,7 +32,7 @@ export default function Contact() {
                 <form action="http://maps.google.com/maps" method="get" target="_blank">
                     <input type="text" name="saddr" />
                     <input type="hidden" name="daddr" defaultValue="F45 Fulham DAWES ROAD, FULHAM, LONDON, W6 7EN, United Kingdom" />
-                    <input type="submit" defaultValue="Get directions" />
+                    <input type="submit" className="submitTriangle" defaultValue="Get directions" />
                 </form>
                 </div>
             </li>
