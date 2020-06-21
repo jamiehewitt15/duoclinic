@@ -151,3 +151,12 @@ h5{
 ul.finding li a {
   color: #fff;
 }
+.travelling img {
+  height: 250px;
+  width: 250px;
+}
+.tubeLine{
+  color: #29888e;
+  font-weight: 500;
+  margin-bottom: 50px;
+}

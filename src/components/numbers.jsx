@@ -11,7 +11,7 @@ export default function Numbers() {
         <section id="numbers" className="numbers light">
         <div className="holder">
           <div className="heading b64">
-            <h2 class="specialHeading blue">What makes personal training<br /> at Duo Clinic so different?</h2>
+            <h2 className="specialHeading blue">What makes personal training<br /> at Duo Clinic so different?</h2>
             <p className="center">At Duo Clinic, we focus on what’s important: you and your goals. Nothing else matters.<br />  Join us, and you’ll feel the difference, in every sense.</p>
           </div>
         </div>
