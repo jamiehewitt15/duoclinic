@@ -8,7 +8,7 @@ import './styles/slider.css'
 import './styles/lazyLoad.css'
 import './styles/plugin.css'
 import './styles/styles.css'
-import App from './App';
+import App from './App.jsx';
 //import './js/colophon.js'
 //import './js/onScroll.js'
 //import './js/jquery.bxslider.min.js'

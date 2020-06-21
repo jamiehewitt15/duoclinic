@@ -134,3 +134,20 @@ footer {
   border-width: 25px 0 25px 42px !important;
   border-color: transparent transparent transparent #29888e !important;
 } 
+section.findus {
+  padding-top: 50px;
+}
+h5{
+  color: #29888e;
+    font-family: 'Roboto Mono', monospace !important;
+    font-weight: 400;
+}
+.line {
+  background: #29888e;
+}
+.finding{
+  color: #fff;
+}
+ul.finding li a {
+  color: #fff;
+}
