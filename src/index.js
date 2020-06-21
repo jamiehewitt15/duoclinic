@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Layout from "./components/layout"
 import './styles/styles.min.css'
 import './styles/slider.css'
 import './styles/lazyLoad.css'
@@ -18,9 +17,9 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Layout>
+    
     <App />
-    </Layout>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

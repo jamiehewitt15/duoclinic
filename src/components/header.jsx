@@ -1,4 +1,5 @@
 import React from "react"
+import {  Link } from "react-router-dom";
 import "./componentStyles.css"
 import "./styles/header.css"
 import logo from "./images/logo.png"
@@ -13,6 +14,22 @@ export default function Header() {
             <a id="covid-link" href="./">Our Covid-19 plan</a>
           </div>
           <div className="links">
+            
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+                <li>
+                  <Link to="/users">Users</Link>
+                </li>
+              </ul>
+            </nav>
+            
+            
             <a href="#trial">Get Started</a>
             <a href="#numbers">About</a>
             <a href="/personal-training/">Personal Training</a>

@@ -1,6 +1,6 @@
 import React from 'react';
-import Contact from "./contact.js"
-import FindUs from "./findUs.js"
+import Contact from "../components/contact.jsx"
+import FindUs from "../components/findUs.jsx"
 //import Featured from "./components/featured.js"
 
 

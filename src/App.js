@@ -6,13 +6,15 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
+
+import Layout from "./components/layout.jsx"
 //import Featured from "./components/featured.js"
 
 /**
  * Import all page components here
  */
-import Home from './components/home.page';
-import Contact from './components/contact.page';
+import Home from './pages/home.page.jsx';
+import Contact from './pages/contact.page.jsx';
 
 
 function App() {
@@ -20,34 +22,17 @@ function App() {
     <div className="App">
       <main>
       <Router>
+      <Layout>
       <div>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-            <Contact />
-          </Route>
-          <Route path="/contact" component={Contact}>
-            {/* <Users /> */}
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route path="/contact"  component={Contact} />
+          <Route path="/" component={Home} />
+          <Route path="/" />
         </Switch>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
       </div>
+    </Layout>
     </Router>
       </main>
     </div>
