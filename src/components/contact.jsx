@@ -9,12 +9,13 @@ export default function Contact() {
             <li>
                 <h5>Find us</h5>
                 <div className="line">&nbsp;</div>
-                <p>202-208 Kensal Road<br />
-                London<br />
-                W10 5BN<br />
+                <p>2 - 8 DAWES ROAD<br />
+                FULHAM<br />
+                London, 
+                W6 7EN<br />
                 –<br />
                 020 3489 5428<br />
-                <a href="mailto:info@w10performance.com">info@w10performance.com</a><br />
+                <a href="mailto:info@duoclinic.co">info@duoclinic.co</a><br />
                 </p></li>
             <li>
                 <h5>Opening hours</h5>
@@ -30,7 +31,7 @@ export default function Contact() {
                 <div className="postcodeform">
                 <form action="http://maps.google.com/maps" method="get" target="_blank">
                     <input type="text" name="saddr" />
-                    <input type="hidden" name="daddr" defaultValue="202-208 Kensal Road, W10 5BN, London, United Kingdom" />
+                    <input type="hidden" name="daddr" defaultValue="F45 Fulham DAWES ROAD, FULHAM, LONDON, W6 7EN, United Kingdom" />
                     <input type="submit" defaultValue="Get directions" />
                 </form>
                 </div>

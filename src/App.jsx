@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import './App.css';
 
@@ -15,6 +14,8 @@ import Layout from "./components/layout.jsx"
  */
 import Home from './pages/home.page.jsx';
 import Contact from './pages/contact.page.jsx';
+import Covid from './pages/covid.page.jsx';
+
 
 
 function App() {
@@ -28,8 +29,8 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/contact"  component={Contact} />
+          <Route path="/covid" component={Covid} />
           <Route path="/" component={Home} />
-          <Route path="/" />
         </Switch>
       </div>
     </Layout>

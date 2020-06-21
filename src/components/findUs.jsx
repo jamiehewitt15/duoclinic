@@ -5,9 +5,9 @@ import Background from "./images/duoclinicoutside2.png"
 export default function Findus() {
     return (
     <section className="hero mini findus" style={{ backgroundImage: `url(${Background})` }}>
-        <video id="videoBG"  autoPlay muted loop>
+        {/* <video id="videoBG"  autoPlay muted loop>
         <source src="./videos/Video1.mp4" type="video/mp4" />
-        </video>
+        </video> */}
     <div className="middle" >
         <div className="holder">
         <div className="white center">
