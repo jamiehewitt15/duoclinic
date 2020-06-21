@@ -16,7 +16,7 @@ export default function Findus() {
             <div className="sub">
                 <p>2 - 8 Dawes Road<br /> FULHAM <br />LONDON W6 7EN</p>
             </div>
-            <p>We are proud to provide West London with quality fitness training.</p>
+            <p className="findUsSubTest">We are proud to provide West London with quality fitness training.</p>
             {/* <a href="/getstarted/" className="button white"><span>View Full Details</span></a> */}
             </div>
         </div>
