@@ -3,7 +3,7 @@ import React from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
 import "./styles/plugin.css"
-import Background from "./images/Background.jpg"
+import Background from "./images/FulhamPeople.jpg"
 
 export default function contactHero() {
       return (      
@@ -83,4 +83,5 @@ var TxtType = function(el, toRotate, period) {
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; font-family: 'Montserrat', sans-serif;}";
       document.body.appendChild(css);
   };
-  onLoad();
+
+  
