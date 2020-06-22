@@ -159,8 +159,15 @@ h5{
 .finding{
   color: #fff;
 }
+ul.finding {
+  padding: 0px 0 86px 0;
+}
 ul.finding li a {
   color: #fff;
+}
+.wrap { 
+  border-right: 0.08em solid #fff; 
+  font-family: 'Montserrat', sans-serif;
 }
 .travelling img {
   height: 250px;
