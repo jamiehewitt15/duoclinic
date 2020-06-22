@@ -12,7 +12,7 @@ export default function contactHero() {
           <div className="desktop tablet">
             <h2 className="cd-headline clip white"><span />
             <a href="" class="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
-              "2 - 8 DAWES ROAD, FULHAM, LONDON, W6 7EN"]'>
+              "2 - 8 DAWES ROAD, <br> FULHAM,<br> LONDON, W6 7EN"]'>
               <span class="wrap"></span>
             </a>
              </h2>
@@ -68,7 +68,7 @@ var TxtType = function(el, toRotate, period) {
       }, delta);
   };
 
-  window.onload = function() {
+  function onLoad() {
       var elements = document.getElementsByClassName('typewrite');
       for (var i=0; i<elements.length; i++) {
           var toRotate = elements[i].getAttribute('data-type');
@@ -83,3 +83,4 @@ var TxtType = function(el, toRotate, period) {
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; font-family: 'Montserrat', sans-serif;}";
       document.body.appendChild(css);
   };
+  onLoad();
