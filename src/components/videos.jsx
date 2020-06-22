@@ -4,18 +4,17 @@ import "./componentStyles.css"
 export default function Video() {
       return (<section className="videos">
       <div className="holder">
-        <div className="heading">
+        <div className="findOutMoreHeading">
           <h2 className="specialHeading blue">Find Out More</h2>
         </div>
-        <ul className="video">
-          <li>
+        <div className="video">
             <div className="player">
               <div className="lines">
-                <div className="wistia_responsive_padding" style={{padding: '56.25% 0 0 0', position: 'relative'}}>
+                <div className="wistia_responsive_padding" style={{padding: '50% 0 0 0', position: 'relative'}}>
                     <div className="wistia_responsive_wrapper" style={{height: '100%', left: 0, position: 'absolute', top: 0, width: '100%'}}>
                         <div className="wistia_embed wistia_async_zsf8r28522 videoFoam=true" style={{height: '100%', width: '100%'}}>
                         <div className="videoContainer">
-                        <iframe title="video1" className="iframeVideo" width="560" height="315" src="https://player.vimeo.com/video/421936046?title=0&byline=0&portrait=0" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen />
+                        <iframe title="video1" className="iframeVideo" width="896" height="504" src="https://player.vimeo.com/video/421936046?title=0&byline=0&portrait=0" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen />
                         </div><div>
 
                         </div>
@@ -23,14 +22,13 @@ export default function Video() {
                             </div></div></div>
               </div>
             </div>
-            <div className="quote">
+            {/* <div className="quote">
               <blockquote style={{borderLeft: '3px solid #29888e'}}>
                 <p>"I’ve done things I never thought I could do"</p>
                 <cite style={{fontFamily: 'Montserrat'}}>Emma</cite>
               </blockquote>
             </div>
-          </li>
-          {/* <li>
+          <li>
             <div className="player">
               <div className="lines linesleft">
                 <div className="wistia_responsive_padding" style={{padding: '56.25% 0 0 0', position: 'relative'}}>
@@ -56,7 +54,7 @@ export default function Video() {
               </blockquote>
             </div>
           </li> */}
-        </ul>
+        </div>
       </div>
     </section>
       );
