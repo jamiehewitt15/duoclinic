@@ -8,7 +8,7 @@ export default function Header() {
       return (
         <div id="nav" className="nav-underline">
           <div id="logo"><a href="/">
-          <img class="logo" src={logo}  alt="logo" />
+          <img id="logoImg" class="logo" src={logo}  alt="logo" />
             </a></div>
           <div id="covid-container">
           <Link id="covid-link" to="/covid">Our Covid-19 plan</Link>
@@ -36,8 +36,12 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("logo").style.height = "30px !important";
+    document.getElementById("logoImg").classList.add("smallLogo");
+    document.getElementById("logoImg").classList.remove("logo");
+    document.getElementById("nav").classList.add("smallNav");
   } else {
-    document.getElementById("logo").style.height = "70px";
+    document.getElementById("logoImg").classList.remove("smallLogo");
+    document.getElementById("logoImg").classList.add("logo");
+    document.getElementById("nav").classList.remove("smallNav");
   }
 }
