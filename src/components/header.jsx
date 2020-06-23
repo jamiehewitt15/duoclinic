@@ -7,9 +7,11 @@ import logo from "./images/logo.png"
 export default function Header() {
       return (
         <div id="nav" className="nav-underline">
-          <div id="logo"><a href="/">
+          <div id="logo">
+          <Link to="/">
           <img id="logoImg" class="logo" src={logo}  alt="logo" />
-            </a></div>
+          </Link>
+           </div>
           <div id="covid-container">
           <Link id="covid-link" to="/covid">Our Covid-19 plan</Link>
           </div>
