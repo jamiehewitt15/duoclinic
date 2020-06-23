@@ -1,13 +1,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react"
+import React, { Component } from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
 import "./styles/plugin.css"
 import Background from "./images/FulhamPeople.jpg"
 
-export default function contactHero() {
-      return (      
-        <section className="hero home" style={{ backgroundImage: `url(${Background})` }}>
+export default class contactHero extends Component {
+
+  componentDidMount() {
+    onLoad();
+  }
+      render(){
+        return(
+      <section className="hero home" style={{ backgroundImage: `url(${Background})` }}>
         <div className="middle">
           <div className="desktop tablet">
             <h2 className="cd-headline clip white"><span />
@@ -22,9 +27,10 @@ export default function contactHero() {
           </div>
           
         </div>
-        
       </section>
-      );
+        );
+
+      }  
     }
 
 var TxtType = function(el, toRotate, period) {

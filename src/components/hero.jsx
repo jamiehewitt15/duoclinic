@@ -1,43 +1,50 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react"
+import React, { Component } from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
 import "./styles/plugin.css"
 import Background from "./images/Background.jpg"
 
-export default function Hero() {
-      return (      
-        <section className="hero home" style={{ backgroundImage: `url(${Background})` }}>
-        <div className="middle">
-          <div className="desktop tablet">
-            <h2 className="cd-headline clip white"><span />
-            <a href="" class="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
-              "Get in the best shape of your life", 
-              "Look better, feel better, live better", 
-              "Made for you and your goals", 
-              "Coached by experts", 
-              "Designed for everyone", 
-              "Caring, challenging, inspiring", 
-              "Start at any fitness level", 
-              "A personal programme", 
-              "Be a better version of yourself" ]'>
-              <span class="wrap"></span>
-            </a>
-             </h2>
+export default class contactHero extends Component {
+
+  componentDidMount() {
+    onLoad();
+  }
+      render(){
+        return(
+          <section className="hero home" style={{ backgroundImage: `url(${Background})` }}>
+          <div className="middle">
+            <div className="desktop tablet">
+              <h2 className="cd-headline clip white"><span />
+              <a href="" class="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
+                "Get in the best shape of your life", 
+                "Look better, feel better, live better", 
+                "Made for you and your goals", 
+                "Coached by experts", 
+                "Designed for everyone", 
+                "Caring, challenging, inspiring", 
+                "Start at any fitness level", 
+                "A personal programme", 
+                "Be a better version of yourself" ]'>
+                <span class="wrap"></span>
+              </a>
+               </h2>
+            </div>
+            <div className="mobile">
+              <h2>Get in the best<br /> shape of your life</h2>
+            </div>
+            <ul className="buttons">
+              <li><a href="#numbers" className="button white"><span class="heroButton">Learn More</span></a></li>
+              <li><a href="#trial" className="button white"><span class="heroButton">Get Started</span></a></li>
+            </ul>
           </div>
-          <div className="mobile">
-            <h2>Get in the best<br /> shape of your life</h2>
+          <div className="down bounce">
+            <img src="https://w10.fit/wp-content/themes/fury-w10/svg/iconArrowDown.svg" />
           </div>
-          <ul className="buttons">
-            <li><a href="#numbers" className="button white"><span class="heroButton">Learn More</span></a></li>
-            <li><a href="#trial" className="button white"><span class="heroButton">Get Started</span></a></li>
-          </ul>
-        </div>
-        <div className="down bounce">
-          <img src="https://w10.fit/wp-content/themes/fury-w10/svg/iconArrowDown.svg" />
-        </div>
-      </section>
-      );
+        </section>
+        );
+
+      }  
     }
 
 var TxtType = function(el, toRotate, period) {
@@ -81,7 +88,7 @@ var TxtType = function(el, toRotate, period) {
       }, delta);
   };
 
-  window.onload = function() {
+  function onLoad() {
       var elements = document.getElementsByClassName('typewrite');
       for (var i=0; i<elements.length; i++) {
           var toRotate = elements[i].getAttribute('data-type');
