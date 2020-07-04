@@ -49,7 +49,7 @@ h4 {
   font-family: 'Montserrat', sans-serif;
 }
 .typewrite{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 #covid-link{
   font-family: 'Montserrat', sans-serif !important;
@@ -224,6 +224,7 @@ ol li {
 }
 .hero h2{
   text-shadow: 2px 2px 2px #397175;
+  font-family: 'Roboto Mono', monospace !important;
 }
 .wistia_responsive_padding{
   padding: '50% 0 0 0';
@@ -240,7 +241,50 @@ iframe.iframeVideo{
   width: 896px; 
   height: 504px;
 }
-/* Mobile Styles */
+.hero.mini.findus{
+  background-image: url("./images/duoclinicoutside2.png");
+  background-size: cover;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sideBarButton{
+  display:none;
+}
+
+/* #### Mobile Styles ##### */
+
 @media only screen and (max-width: 1024px) {
   #logo {
     height: 40px !important;
@@ -275,5 +319,24 @@ iframe.iframeVideo{
   transition: .5s ease;
   backface-visibility: hidden;
   box-shadow: 20px 20px 0px -10px #29888e !important;
+}
+.hero.mini.findus{
+  background-image: url("./images/duoclinicoutside2Mobile.png");
+}
+.mobile.no{
+  color: #29888e;
+  font-family: 'Roboto Mono', monospace !important;
+  font-weight: 400;
+}
+.numberblock dl.right dt img, .numberblock dl dt img {
+  float: none;
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 0px auto;
+}
+.sideBarButton{
+  display:block;
+  float: right;
 }
 }

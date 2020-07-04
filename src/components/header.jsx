@@ -1,12 +1,13 @@
 import React from "react"
 import {  Link } from "react-router-dom";
-import "./componentStyles.css"
-import "./styles/header.css"
-import logo from "./images/logo.png"
+import "./componentStyles.css";
+import logo from "./images/logo.png";
+import SideNav from "./sideNav";
 
 export default function Header() {
       return (
         <div id="nav" className="nav-underline">
+          
           <div id="logo">
           <Link to="/">
           <img id="logoImg" class="logo" src={logo}  alt="logo" />
@@ -15,6 +16,10 @@ export default function Header() {
           <div id="covid-container">
           <Link id="covid-link" to="/covid">Our Covid-19 plan</Link>
           </div>
+          <div className="sideBarButton">
+          <SideNav />
+          </div>
+          
           <div className="links">
             
             <nav>
