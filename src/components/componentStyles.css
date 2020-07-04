@@ -225,6 +225,21 @@ ol li {
 .hero h2{
   text-shadow: 2px 2px 2px #397175;
 }
+.wistia_responsive_padding{
+  padding: '50% 0 0 0';
+  position: 'relative'
+}
+.wistia_responsive_wrapper{
+  height: '100%';
+  left: 0;
+  position: 'absolute';
+  top: 0;
+  width: '100%'
+}
+iframe.iframeVideo{
+  width: 896px; 
+  height: 504px;
+}
 /* Mobile Styles */
 @media only screen and (max-width: 1024px) {
   #logo {
@@ -251,4 +266,14 @@ ol li {
     font-size: 35px;
     line-height: 40px;
   }
+  iframe.iframeVideo{
+    width: 299px; 
+    height: 168px;
+  }
+  
+.iframeVideo {
+  transition: .5s ease;
+  backface-visibility: hidden;
+  box-shadow: 20px 20px 0px -10px #29888e !important;
+}
 }
