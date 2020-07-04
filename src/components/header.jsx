@@ -23,10 +23,6 @@ export default function Header() {
             {/* <a href="/personal-training/">Personal Training</a> */}
             <Link to="/contact">Contact</Link>
             </nav>
-            
-            
-            
-            
           </div>  
           <a id="get-started" href="/getstarted/">Try Us</a>
         </div>

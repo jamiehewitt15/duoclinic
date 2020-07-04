@@ -3,7 +3,6 @@ import React, { Component } from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
 import "./styles/plugin.css"
-import Background from "./images/Background.jpg"
 
 export default class contactHero extends Component {
 
@@ -12,7 +11,7 @@ export default class contactHero extends Component {
   }
       render(){
         return(
-          <section className="hero home" style={{ backgroundImage: `url(${Background})` }}>
+          <section className="hero home" >
           <div className="middle">
             <div className="desktop tablet">
               <h2 className="cd-headline clip white"><span />

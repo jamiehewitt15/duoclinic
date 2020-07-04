@@ -3,7 +3,6 @@ import React, { Component } from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
 import "./styles/plugin.css"
-import Background from "./images/FulhamPeople.jpg"
 
 export default class contactHero extends Component {
 
@@ -12,7 +11,9 @@ export default class contactHero extends Component {
   }
       render(){
         return(
-      <section className="hero home" style={{ backgroundImage: `url(${Background})` }}>
+          
+      <section className="hero home" >
+        <div className="contactBackground">
         <div className="middle">
           <div className="desktop tablet">
             <h2 className="cd-headline clip white"><span />
@@ -25,9 +26,10 @@ export default class contactHero extends Component {
           <div className="mobile">
             <h2>Get in the best<br /> shape of your life</h2>
           </div>
-          
-        </div>
+          </div>  
+          </div>
       </section>
+      
         );
 
       }  
@@ -90,4 +92,3 @@ var TxtType = function(el, toRotate, period) {
       document.body.appendChild(css);
   };
 
-  
