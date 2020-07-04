@@ -19,7 +19,7 @@ export default function Numbers() {
           <dl>
             <dt>
               <img src={image1} alt="gym icon" className="desktop tablet" />
-              <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgHomeSGPTMob.svg"  alt="gym icon"  className="mobile" />
+              <img src={image1}  alt="gym icon"  className="mobile" />
             </dt>
             <dd>
               <div className="middle">
@@ -34,7 +34,7 @@ export default function Numbers() {
           <dl className="right">
             <dt>
               <img src={image2} className="desktop tablet"  alt="gym icon" />
-              <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgHomeResultsMob.svg" className="mobile"  alt="gym icon" />
+              <img src={image2} className="mobile"  alt="gym icon" />
             </dt>
             <dd>
               <div className="middle">
@@ -49,7 +49,7 @@ export default function Numbers() {
           <dl>
             <dt>
               <img src={image3} className="desktop tablet"  alt="gym icon" />
-              <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgHomeTrainingMob.svg" className="mobile"  alt="gym icon" />
+              <img src={image3} className="mobile"  alt="gym icon" />
             </dt>
             <dd>
               <div className="middle">
@@ -64,7 +64,7 @@ export default function Numbers() {
           <dl className="right">
             <dt>
               <img src={image4} className="desktop tablet" alt="gym icon"  />
-              <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgHomeCoachingMob.svg" className="mobile"  alt="gym icon" />
+              <img src={image4} className="mobile"  alt="gym icon" />
             </dt>
             <dd>
               <div className="middle">

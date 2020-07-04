@@ -1,10 +1,9 @@
 import React from "react"
 import "./componentStyles.css"
-import Background from "./images/duoclinicoutside2.png"
 
 export default function Findus() {
     return (
-    <section className="hero mini findus" style={{ backgroundImage: `url(${Background})` }}>
+    <section className="hero mini findus" >
         {/* <video id="videoBG"  autoPlay muted loop>
         <source src="./videos/Video1.mp4" type="video/mp4" />
         </video> */}
