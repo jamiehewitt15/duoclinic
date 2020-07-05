@@ -24,7 +24,7 @@ export default function Header() {
             
             <nav>
             <a href="#trial">Get Started</a>
-            <a href="#numbers">About</a>
+            <a href="/about">About</a>
             {/* <a href="/personal-training/">Personal Training</a> */}
             <Link to="/contact">Contact</Link>
             </nav>
