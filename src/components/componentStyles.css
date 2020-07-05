@@ -440,4 +440,8 @@ iframe.iframeVideo{
 br{
   display: block !important;
 }
+.hero.standard.colours .middle {
+  display: block;
+  padding: 90px 0 0 0 !important;
+}
 }

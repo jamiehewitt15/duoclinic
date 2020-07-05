@@ -1,5 +1,9 @@
 import React from "react"
 import "./componentStyles.css"
+import Icon1 from "./images/icon1.png"
+import Icon2 from "./images/icon2.png"
+import Icon3 from "./images/icon3.png"
+import Icon4 from "./images/icon4.png"
 
 
 export default function ourApproach() {
@@ -16,16 +20,7 @@ export default function ourApproach() {
             <div className="number">
               <dl>
                 <dt>
-                  <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgStepOne.svg" alt="Our Approach Icon"/>
-                </dt>
-                <dd>
-                  <h4>MAX RESULTS IN UNDER 60 MINUTES</h4>
-                  <p>Combines resistance training and conditioning exercises for a complete, full body workout in under 60 minutes.</p>
-                </dd>
-              </dl>
-              <dl>
-                <dt>
-                  <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgStepTwo.svg"  alt="Our Approach Icon"/>
+                  <img src={Icon2}  alt="Our Approach Icon"/>
                 </dt>
                 <dd>
                   <h4>DEDICATED TRAINERS</h4>
@@ -34,7 +29,7 @@ export default function ourApproach() {
               </dl>
               <dl>
                 <dt>
-                  <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgStepThree.svg"  alt="Our Approach Icon"/>
+                  <img src={Icon3}  alt="Our Approach Icon"/>
                 </dt>
                 <dd>
                   <h4>NO SCHEDULED CLASS TIMES</h4>
@@ -43,11 +38,20 @@ export default function ourApproach() {
               </dl>
               <dl>
                 <dt>
-                  <img src="https://w10.fit/wp-content/themes/fury-w10/svg/imgStepThree.svg"  alt="Our Approach Icon"/>
+                  <img src={Icon4}  alt="Our Approach Icon"/>
                 </dt>
                 <dd>
                   <h4>NEW BESPOKE WORKOUTS EVERY DAY</h4>
                   <p>Duo PT workouts change everyday, so your body is always challenged and you’ll never get bored.</p>
+                </dd>
+              </dl>
+              <dl>
+                <dt>
+                  <img src={Icon1} alt="Our Approach Icon"/>
+                </dt>
+                <dd>
+                  <h4>MAX RESULTS IN UNDER 60 MINUTES</h4>
+                  <p>Combines resistance training and conditioning exercises for a complete, full body workout in under 60 minutes.</p>
                 </dd>
               </dl>
             </div>
