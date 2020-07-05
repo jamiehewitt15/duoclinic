@@ -282,6 +282,9 @@ iframe.iframeVideo{
 .sideBarButton{
   display:none;
 }
+.termsLink{
+  font-family: 'Montserrat', sans-serif !important;
+}
 
 /* #### Mobile Styles ##### */
 
@@ -370,10 +373,25 @@ iframe.iframeVideo{
     width: 250px;
     margin: auto;
   }
+  .menuFooterLink{
+    color: #999 !important;
+    padding-left: 35px;
+  }
+  .menuFooterList{
+    position: fixed !important;
+    bottom: 0px;
+  }
   .sideLink{
     color: #999 !important;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
     line-height: 26px !important;
+  }
+  #nav a {
+    display: block;
+    margin-bottom: 10px;;
+  }
+  p.small {
+    line-height: 17px !important;
   }
 }

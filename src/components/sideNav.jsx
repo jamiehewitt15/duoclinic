@@ -23,8 +23,14 @@ class App extends React.Component {
         sidebar={
         <div className="sideBarMenu">
           <Link id="covid-link" to="/covid">Our Covid-19 plan</Link>
+          <Link className="sideLink" to="/"><p>Home</p></Link>
+          <Link className="sideLink" to="/#numbers"><p>About</p></Link>
+          <Link className="sideLink" to="/#trial"><p>Get Started</p></Link>
           <Link className="sideLink" to="/contact"><p>Contact Us</p></Link>
-          
+          <ul className="menuFooterList">
+          <li className="menuFooter"><a className="menuFooterLink" href="mailto: info@duoclinic.co">info@duoclinic.co</a></li> 
+          <li className="menuFooter"><a className="menuFooterLink" href="tel:07900653068">07900 653068</a></li> 
+          </ul>
         </div>
           
         

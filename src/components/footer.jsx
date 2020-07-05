@@ -49,7 +49,7 @@ export default function Footer() {
               {/* <div className="mobile pin">&nbsp;</div> */}
               {/* <a href="https://www.google.com/maps?cid=13584322199484334831" target="blank" className="pin">202-208 Kensal Road, London W10 5BN</a>
               <div className="line line110">&nbsp;</div> */}
-              <p className="terms"><strong><a href="/">Privacy Policy</a> / <a href="/">Cookie Policy</a> / <a href="/">Terms &amp; Conditions</a></strong></p><strong>
+              <p className="terms"><strong><a href="/" className="termsLink">Privacy Policy</a> / <a href="/" className="termsLink">Cookie Policy</a> / <a href="/" className="termsLink">Terms &amp; Conditions</a></strong></p><strong>
                 <p className="small">© 2019 Duo Clinic. All Rights Reserved. Registered Office: 2 - 8 Dawes Road, Fulham, London W6 7EN. Registered Company No. 07566945.</p>
               </strong></div><strong>
             </strong></footer><strong>
