@@ -15,16 +15,16 @@ export default class contactHero extends Component {
           <div className="middle">
             <div className="desktop tablet">
               <h2 className="cd-headline clip white"><span />
-              <a href="" class="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
-                "Get in the best shape of your life", 
-                "Look better, feel better, live better", 
-                "Made for you and your goals", 
-                "Coached by experts", 
-                "Designed for everyone", 
-                "Caring, challenging, inspiring", 
-                "Start at any fitness level", 
-                "A personal programme", 
-                "Be a better version of yourself" ]'>
+              <a href="" className="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
+                "<h1>Get in the best shape of your life</h1>", 
+                "<h1>Look better, feel better, live better</h1>", 
+                "<h1>Made for you and your goals</h1>", 
+                "<h1>Coached by experts</h1>", 
+                "<h1>Designed for everyone</h1>", 
+                "<h1>Caring, challenging, inspiring</h1>", 
+                "<h1>Start at any fitness level</h1>", 
+                "<h1>A personal programme</h1>", 
+                "<h1>Be a better version of yourself</h1>" ]'>
                 <span class="wrap"></span>
               </a>
                </h2>
