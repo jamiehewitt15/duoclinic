@@ -222,6 +222,11 @@ ol li {
   height: 100%;
   background-size: cover;
 }
+.aboutBackground{
+  background-image: url("./images/FulhamBoxing.jpg");
+  height: 100%;
+  background-size: cover;
+}
 .hero h2{
   text-shadow: 2px 2px 2px #397175;
   font-family: 'Roboto Mono', monospace !important;
@@ -309,9 +314,11 @@ iframe.iframeVideo{
   fill: var(--arrow-color, #397175) !important;
 }
 .dark{
-  background:none;
+  /* background:none; */
 }
-
+.heading.inner{
+  max-width: 1200px;
+}
 /* #### Mobile Styles ##### */
 
 @media only screen and (max-width: 1024px) {
@@ -420,4 +427,17 @@ iframe.iframeVideo{
   p.small {
     line-height: 17px !important;
   }
+  .faqDiv {
+    width: 350px;
+  }
+  dl.dual dd.middle {
+    height: 100%;
+    padding: 0 0px;
+}
+.aboutBackground{
+  padding-bottom: 80px;
+}
+br{
+  display: block !important;
+}
 }

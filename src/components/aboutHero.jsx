@@ -13,18 +13,18 @@ export default class contactHero extends Component {
         return(
           
       <section className="hero home" >
-        <div className="contactBackground">
+        <div className="aboutBackground">
         <div className="middle">
           <div className="desktop tablet">
             <h2 className="cd-headline clip white"><span />
             <a href="" class="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
-              "<h1>About Us...</h1>"]'>
+              "<h1>GET STRONGER.<br />LIVE LONGER.</h1>"]'>
               <span class="wrap"></span>
             </a>
              </h2>
           </div>
           <div className="mobile">
-            <h2>About Us...</h2>
+            <h2>GET STRONGER.<br />LIVE LONGER.<br/></h2>
           </div>
           </div>  
           </div>
