@@ -18,7 +18,7 @@ export default class contactHero extends Component {
           <div className="desktop tablet">
             <h2 className="cd-headline clip white"><span />
             <a href="" class="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
-              "2 - 8 DAWES ROAD, <br> FULHAM,<br> LONDON, W6 7EN"]'>
+              "<h1>2 - 8 DAWES ROAD, <br> FULHAM,<br> LONDON, W6 7EN</h1>"]'>
               <span class="wrap"></span>
             </a>
              </h2>
