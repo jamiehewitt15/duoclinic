@@ -245,7 +245,11 @@ iframe.iframeVideo{
   background-image: url("./images/duoclinicoutside2.png");
   background-size: cover;
 }
-
+.hero.findus {
+  /* background: url(images/home/where-to-find-us-desktop.jpg); */
+  background-size: cover;
+  height: 690px;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -285,6 +289,28 @@ iframe.iframeVideo{
 .termsLink{
   font-family: 'Montserrat', sans-serif !important;
 }
+.faq{
+  background: #4d4d4d;
+  height: 700px;
+  padding-top: 60px;
+}
+.faqDiv{
+  background: #666;
+  width: 700px;
+  margin: auto;
+}
+.faqComponent{
+  background: #666;
+}
+.styles_faq-row-wrapper__3Hsch {
+  background-color: #4d4d4d !important;
+}
+.styles_faq-row-wrapper__3Hsch .styles_row-body__8wIE9 .styles_faq-row__2Rd2Y .styles_row-title__2yqnt .styles_icon-wrapper__wjX56 svg {
+  fill: var(--arrow-color, #397175) !important;
+}
+.dark{
+  background:none;
+}
 
 /* #### Mobile Styles ##### */
 
@@ -310,8 +336,8 @@ iframe.iframeVideo{
     height: 80vh;
   }
   .hero h2 {
-    line-height: 45px;
-    padding-bottom: 40px;
+    line-height: 60px;
+    padding-bottom: 20px;
   }
   .specialHeading.blue{
     font-size: 35px;
