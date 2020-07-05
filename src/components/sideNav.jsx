@@ -24,7 +24,7 @@ class App extends React.Component {
         <div className="sideBarMenu">
           <Link id="covid-link" to="/covid">Our Covid-19 plan</Link>
           <Link className="sideLink" to="/"><p>Home</p></Link>
-          <Link className="sideLink" to="/#numbers"><p>About</p></Link>
+          <Link className="sideLink" to="/about"><p>About</p></Link>
           <Link className="sideLink" to="/#trial"><p>Get Started</p></Link>
           <Link className="sideLink" to="/contact"><p>Contact Us</p></Link>
           <ul className="menuFooterList">
