@@ -14,7 +14,7 @@ export default function Video() {
                     <div className="wistia_responsive_wrapper" >
                         <div className="wistia_embed wistia_async_zsf8r28522 videoFoam=true" style={{height: '100%', width: '100%'}}>
                         <div className="videoContainer">
-                        <iframe title="video1" className="iframeVideo" src="https://player.vimeo.com/video/421936046?title=0&byline=0&portrait=0" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen />
+                        <iframe title="video1" className="iframeVideo" src='https://player.vimeo.com/video/421936046?title=0&byline=0&portrait=0' frameBorder={0} allow="autoplay; fullscreen" allowFullScreen />
                         </div><div>
 
                         </div>
