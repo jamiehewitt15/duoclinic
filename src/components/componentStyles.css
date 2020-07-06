@@ -99,7 +99,7 @@ footer {
   padding-bottom: 50px;
 }
 .iframeVideo {
-  opacity: 0.7;
+  opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
   box-shadow: 150px 150px 0px -135px #29888e !important;
