@@ -1,9 +1,9 @@
 import React from "react"
 import "./componentStyles.css"
-// comment 
 
 export default function Video() {
-      return (<section className="videos">
+      return (
+      <section className="videos">
       <div className="holder">
         <div className="findOutMoreHeading">
           <h2 className="specialHeading blue">Find Out More</h2>         
