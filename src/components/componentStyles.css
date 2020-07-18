@@ -27,7 +27,13 @@ body {
 #nav{
     font-size: 40px;
 }
-h1, h2 {
+h1{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 85px;
+}
+h2 {
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 300;
   font-size: 48px;
@@ -121,7 +127,16 @@ footer {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 } */
-
+.heroMiddle {
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+}
+.heroTitle{
+  font-size: 60px;
+}
 .videoContainer:hover .iframeVideo {
   opacity: 1;
 }
@@ -319,6 +334,24 @@ iframe.iframeVideo{
 .heading.inner{
   max-width: 1200px;
 }
+.backgroundVideo{
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* #### Mobile Styles ##### */
 
 @media only screen and (max-width: 1024px) {

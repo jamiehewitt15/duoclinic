@@ -11,6 +11,9 @@
 # production
 /build
 
+/src/components/videos
+bfg-1.13.0.jar
+
 # misc
 .DS_Store
 .env.local
