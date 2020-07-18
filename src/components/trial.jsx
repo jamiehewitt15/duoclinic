@@ -9,7 +9,7 @@ export default function Trial() {
         
             <div className="middle">
               <div className="white center">
-              <h2 class="freeTrial">30-day Trial</h2>
+              <h2 class="freeTrial">Book a Free Session</h2>
               <p>Test drive our gym, meet the team and experience our inclusive culture. We’ll help you<br />
                   rediscover your fitness mojo and get the results that you want.</p>
               <a href="/" className="button white"><span>Get Started</span></a>
