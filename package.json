@@ -10,7 +10,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-faq-component": "^1.0.6",
+<<<<<<< HEAD
     "react-player": "^2.5.0",
+=======
+>>>>>>> 3ed4824d34aecd000a0dc81d33980ad56f98e203
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
