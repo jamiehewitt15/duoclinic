@@ -337,6 +337,7 @@ iframe.iframeVideo{
 .backgroundVideo{
   width: 100vw !important;
   height: 110vh !important;
+  filter: brightness(0.5);
 }
 
 
