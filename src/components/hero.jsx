@@ -4,7 +4,6 @@ import "./componentStyles.css"
 import "./styles/header.css"
 import "./styles/plugin.css"
 import mainVideo from "./videos/mainVideo.mp4"
-// import ReactPlayer from 'react-player'
 
 
 export default class contactHero extends Component {
@@ -15,10 +14,10 @@ export default class contactHero extends Component {
       render(){
         return(
           <section className="hero home" >
-             <video className="backgroundVideo" muted autoPlay >
+             <video className="backgroundVideo" muted autoPlay loop>
               <source src={mainVideo} type="video/mp4" />
             </video>
-            {/* <ReactPlayer  url='./src/components/videos/mainVideo.mp4' playing='true' controls='false' loop='true'/> */}
+            
           <div className="middle">
             <div className="heroMiddle">
            
