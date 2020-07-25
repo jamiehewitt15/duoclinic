@@ -3,7 +3,8 @@ import React, { Component } from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
 import "./styles/plugin.css"
-import ReactPlayer from 'react-player'
+import mainVideo from "./videos/mainVideo.mp4"
+// import ReactPlayer from 'react-player'
 
 
 export default class contactHero extends Component {
@@ -14,10 +15,13 @@ export default class contactHero extends Component {
       render(){
         return(
           <section className="hero home" >
-            <ReactPlayer className="backgroundVideo" url='https://player.vimeo.com/video/421936046?title=0&byline=0&portrait=0' playing='true' controls='false' loop='true'/>
+             <video className="backgroundVideo" muted autoPlay >
+              <source src={mainVideo} type="video/mp4" />
+            </video>
+            {/* <ReactPlayer  url='./src/components/videos/mainVideo.mp4' playing='true' controls='false' loop='true'/> */}
           <div className="middle">
             <div className="heroMiddle">
-
+           
             <div className="desktop tablet">
               <h2 className="cd-headline clip white"><span />
               <a href="" className="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
@@ -109,10 +113,3 @@ var TxtType = function(el, toRotate, period) {
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; font-family: 'Montserrat', sans-serif;}";
       document.body.appendChild(css);
   };
-
-
-
-
-  // test 123
-
-  // <div style="padding:56.6% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/439377585?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

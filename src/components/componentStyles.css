@@ -334,7 +334,6 @@ iframe.iframeVideo{
 .heading.inner{
   max-width: 1200px;
 }
-<<<<<<< HEAD
 .backgroundVideo{
   width: 100vw !important;
   height: 110vh !important;
@@ -354,8 +353,6 @@ iframe.iframeVideo{
 
 
 
-=======
->>>>>>> 3ed4824d34aecd000a0dc81d33980ad56f98e203
 /* #### Mobile Styles ##### */
 
 @media only screen and (max-width: 1024px) {
