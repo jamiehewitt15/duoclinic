@@ -47,9 +47,9 @@ export default class contactHero extends Component {
           </div>
           </div>
 
-          <div className="down bounce">
+          {/* <div className="down bounce">
             <img src="https://w10.fit/wp-content/themes/fury-w10/svg/iconArrowDown.svg" />
-          </div>
+          </div> */}
         </section>
         );
 

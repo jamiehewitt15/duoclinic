@@ -24,9 +24,9 @@ export default function Numbers() {
             <dd>
               <div className="middle">
                 <div className="gap">
-                  <div className="no desktop tablet title">01. Community</div>
-                  <h4><div className="mobile no">01. Community </div>Feel the friendly vibes</h4>
-                  <p>Our community culture makes fitness inclusive and fun. Our Small-group PT sessions give you focused support plus a motivating group dynamic.</p>
+                  <div className="no desktop tablet title">01. Coaching</div>
+                  <h4><div className="mobile no">01. Coaching </div>Expert guidance gets results</h4>
+                  <p>Through small-group personal training sessions, our permanent team of world-class coaches will guide, monitor and support you every step of the way. They’re a great bunch of people to boot.</p>
                 </div>
               </div>
             </dd>
@@ -39,9 +39,9 @@ export default function Numbers() {
             <dd>
               <div className="middle">
                 <div className="gap">
-                  <div className="no desktop tablet title">02. Coaching</div>
-                  <h4><div className="mobile no">02. Coaching </div>Expert guidance gets results</h4>
-                  <p>Through small-group personal training sessions, our permanent team of world-class coaches will guide, monitor and support you every step of the way. They’re a great bunch of people to boot.</p>
+                  <div className="no desktop tablet title">02. Osteo clinic plus other services</div>
+                  <h4><div className="mobile no">02. Osteo clinic</div>plus other services</h4>
+                  <p>Our practitioners are highly trained healthcare professionals, considered experts in the musculoskeletal system and its relationship to other systems in the body. They’re here to keep you as healthy as you can be.</p>
                 </div>
               </div>
             </dd>
@@ -54,9 +54,9 @@ export default function Numbers() {
             <dd>
               <div className="middle">
                 <div className="gap">
-                  <div className="no desktop tablet title">03. Customer service</div>
-                  <h4><div className="mobile no">03. Customer service </div>It’s all about you</h4>
-                  <p>At Duo Clinic, everything we do is driven by your personal needs and goals. That’s why we’ve developed a professional, customer-focused service ethos built on industry-defining systems and standards.</p>
+                  <div className="no desktop tablet title">03.  Care /Safety</div>
+                  <h4><div className="mobile no">03. Care /Safety</div>It’s all about you</h4>
+                  <p>Improving your physical strength is the foundation of our 360° plan for your complete wellbeing, which includes nutrition support, building mental robustness, and maintaining a safe, healthy gym environment.</p>
                 </div>
               </div>
             </dd>
@@ -69,9 +69,9 @@ export default function Numbers() {
             <dd>
               <div className="middle">
                 <div className="gap">
-                  <div className="no desktop tablet title">04. Care</div>
-                  <h4><div className="mobile no">04. Care </div>Your wellbeing comes first</h4>
-                  <p>Improving your physical strength is the foundation of our 360° plan for your complete wellbeing, which includes nutrition support, building mental robustness, and maintaining a safe, healthy gym environment.</p>
+                  <div className="no desktop tablet title">04. Customer service</div>
+                  <h4><div className="mobile no">04. Customer service</div>Your wellbeing comes first</h4>
+                  <p>At Duo Clinic, everything we do is driven by your personal needs and goals. That’s why we’ve developed a professional, customer-focused service ethos built on industry-defining systems and standards.</p>
                 </div>
               </div>
             </dd></dl>
