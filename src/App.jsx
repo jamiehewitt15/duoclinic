@@ -17,6 +17,7 @@ import Contact from './pages/contact.page.jsx';
 import Covid from './pages/covid.page.jsx';
 import About from './pages/about.page.jsx';
 import Services from './pages/services.page.jsx';
+import Classes from './pages/classes.page.jsx';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/covid" component={Covid} />
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
+          <Route path="/classes" component={Classes} />
           <Route path="/" component={Home} />
         </Switch>
       </div>

@@ -346,7 +346,9 @@ iframe.iframeVideo{
   position: relative;
   right: 0;
   min-width: 100%;
-  height: 552px;
+  /* height: 552px; */
+  margin-right: -1px;
+  margin-bottom: -4px;
 }
 .socialIcon{
   width: 40px;
@@ -531,5 +533,11 @@ br{
 }
 .backgroundVideo{
   /* display... */
+}
+#nav a#covid-link {
+  font-size: 13px !important;
+}
+.menuFooterLink{
+  padding-left: 15px;
 }
 }

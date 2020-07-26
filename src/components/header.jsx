@@ -24,8 +24,9 @@ export default function Header() {
             
             <nav>
             <a href="https://startyourfitness.co/dc-application-form" target="blank">Get Started</a>
-            <a href="/about">About</a>
-            <a href="/services">Services</a>
+            <Link to="/about">About</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/classes">Classes</Link>
             <Link to="/contact">Contact</Link>
             </nav>
           </div>  

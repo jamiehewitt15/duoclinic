@@ -26,6 +26,7 @@ class App extends React.Component {
           <Link className="sideLink" to="/"><p>Home</p></Link>
           <Link className="sideLink" to="/about"><p>About</p></Link>
           <Link className="sideLink" to="/services"><p>Services</p></Link>
+          <Link className="sideLink" to="/services"><p>Classes</p></Link>
           <Link className="sideLink" to="/#trial"><p>Get Started</p></Link>
           <Link className="sideLink" to="/contact"><p>Contact Us</p></Link>
           <ul className="menuFooterList">

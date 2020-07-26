@@ -517,7 +517,7 @@ body.page-ebooks .ebooks.minus167 {
 .hero.trial {
     /* background: url('images/home/parallaxHome-1.jpg'); */
     background-size: cover;
-    height: 552px;
+    /* height: 552px; */
         background-size: cover;
     object-fit: contain;
     background-repeat: no-repeat;

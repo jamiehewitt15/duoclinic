@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from "../components/covidHero.jsx"
+import Hero from "../components/classesHero.jsx"
 import CovidInfo from "../components/covidInfo.jsx"
 import FindUs from "../components/findUs.jsx"
 import Trial from "../components/trial.jsx"
