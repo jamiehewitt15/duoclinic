@@ -23,7 +23,7 @@ export default function Header() {
           <div className="links">
             
             <nav>
-            <a href="#trial">Get Started</a>
+            <a href="https://startyourfitness.co/dc-application-form" target="blank">Get Started</a>
             <a href="/about">About</a>
             <a href="/services">Services</a>
             <Link to="/contact">Contact</Link>

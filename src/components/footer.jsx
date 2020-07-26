@@ -1,4 +1,6 @@
 import React from "react"
+import facebookIcon from "./images/001-facebook.svg"
+import instagramIcon from "./images/002-instagram.svg"
 
 export default function Footer() {
       return (
@@ -19,7 +21,8 @@ export default function Footer() {
                 <li class="footerList"><a href="mailto: info@duoclinic.co">info@duoclinic.co</a></li> 
                 <li class="footerList"><a href="tel:07900653068">07900 653068</a></li> 
                 <li class="footerList"><a href="https://www.duoclinic.co/privacy-policy/">Privacy Policy</a></li>
-                
+                <li class="footerList"><a href="https://www.facebook.com/DuoClinicFulham/"> <img src={facebookIcon} className="socialIcon"  alt="Facebook icon" /> </a>
+                <a href="https://www.instagram.com/duo.clinic/"> <img src={instagramIcon} className="socialIcon"  alt="Instagram icon" /> </a></li>
                   {/*   <li><a href="/press/">Press</a></li>  */}
                   
                 </ul>

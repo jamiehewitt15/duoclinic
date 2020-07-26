@@ -342,8 +342,12 @@ iframe.iframeVideo{
   min-width: 100%;
   min-height: 100%;
 }
-
-
+.socialIcon{
+  width: 40px;
+  display: inline;
+  margin-right: 10px;
+  margin-top: 10px;
+}
 
 
 

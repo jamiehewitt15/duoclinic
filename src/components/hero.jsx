@@ -42,7 +42,7 @@ export default class contactHero extends Component {
             </div>
             <ul className="buttons">
               <li><a href="#numbers" className="button white"><span class="heroButton">Learn More</span></a></li>
-              <li><a href="#trial" className="button white"><span class="heroButton">Get Started</span></a></li>
+              <li><a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white"><span class="heroButton">Get Started</span></a></li>
             </ul>
           </div>
           </div>
