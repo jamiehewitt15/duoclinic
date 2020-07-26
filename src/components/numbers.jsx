@@ -40,7 +40,7 @@ export default function Numbers() {
               <div className="middle">
                 <div className="gap">
                   <div className="no desktop tablet title">02. Osteo clinic plus other services</div>
-                  <h4><div className="mobile no">02. Osteo clinic</div>plus other services</h4>
+                  <h4><div className="mobile no">02. Osteo clinic</div>Pilates, dry needling, massage and more!</h4>
                   <p>Our practitioners are highly trained healthcare professionals, considered experts in the musculoskeletal system and its relationship to other systems in the body. They’re here to keep you as healthy as you can be.</p>
                 </div>
               </div>

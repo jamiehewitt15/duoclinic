@@ -310,10 +310,11 @@ iframe.iframeVideo{
 .termsLink{
   font-family: 'Montserrat', sans-serif !important;
 }
-.faq{
+.faq {
   background: #4d4d4d;
-  height: 700px;
+  height: fit-content;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .faqDiv{
   background: #666;
