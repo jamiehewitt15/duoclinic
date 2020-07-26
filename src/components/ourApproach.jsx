@@ -18,6 +18,10 @@ export default function ourApproach() {
               </div>  
             </div>
             <div className="number">
+
+            <div className="table">
+            <div className="tr">
+              <div className="td">
               <dl>
                 <dt>
                   <img src={Icon2}  alt="Our Approach Icon"/>
@@ -35,7 +39,9 @@ export default function ourApproach() {
                   <h4>NO SCHEDULED CLASS TIMES</h4>
                   <p>Show up and train on your time.A Trainer that books you in on a day and time that suits you. Time wasted: ZERO!</p>
                 </dd>
-              </dl>
+              </dl>  
+              </div>
+              <div className="td">
               <dl>
                 <dt>
                   <img src={Icon4}  alt="Our Approach Icon"/>
@@ -54,6 +60,10 @@ export default function ourApproach() {
                   <p>Combines resistance training and conditioning exercises for a complete, full body workout in under 60 minutes.</p>
                 </dd>
               </dl>
+            
+              </div>
+            </div>
+          </div>
             </div>
           </div>
         </section>

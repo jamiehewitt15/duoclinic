@@ -29,13 +29,13 @@ export default function Footer() {
               </div>
               <div className="frow3">
                 <div className="newsletter">
-                  <h4>Get your fitness fill</h4>	
+                  <h4>Get a Call Back</h4>	
                   <form acceptCharset="UTF-8" action="https://ge734.infusionsoft.com/app/form/process/c94572c3a561ac03c4f386844d722a41" className="infusion-form" id="inf_form_c94572c3a561ac03c4f386844d722a41" method="POST">
                     <input name="inf_form_xid" type="hidden" defaultValue="c94572c3a561ac03c4f386844d722a41" />
                     <input name="inf_form_name" type="hidden" defaultValue="Web Form submitted" />
                     <input name="infusionsoft_version" type="hidden" defaultValue="1.70.0.200651" />
                     <input className="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" placeholder="Your Name" />
-                    <input className="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="email" placeholder="Email" />
+                    <input className="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="email" placeholder="Phone Number" />
                     <input className="submitTriangle" type="submit" defaultValue="+" />
                   </form>
                 </div>
