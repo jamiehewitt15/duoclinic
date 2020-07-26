@@ -89,8 +89,9 @@ footer {
 .footerList{
   font-family: 'Montserrat', sans-serif !important;
 }
-.newsletter input[type="text"], .newsletter input[type="email"] {
+.newsletter input[type="text"], .newsletter input[type="text"] {
   font-family: 'Montserrat', sans-serif !important; 
+  margin-top: 8px;
 }
 .blockquote {
   border-left: 3px solid #29888e;
