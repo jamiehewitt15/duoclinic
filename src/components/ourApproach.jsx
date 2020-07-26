@@ -21,7 +21,7 @@ export default function ourApproach() {
 
             <div className="table">
             <div className="tr">
-              <div className="td">
+              <div className="td about">
               <dl>
                 <dt>
                   <img src={Icon2}  alt="Our Approach Icon"/>
@@ -36,12 +36,12 @@ export default function ourApproach() {
                   <img src={Icon3}  alt="Our Approach Icon"/>
                 </dt>
                 <dd>
-                  <h4>NO SCHEDULED CLASS TIMES</h4>
-                  <p>Show up and train on your time.A Trainer that books you in on a day and time that suits you. Time wasted: ZERO!</p>
+                  <h4>SHOW UP ON YOUR TIME</h4>
+                  <p>Show up and train on your time. A Trainer that books you in on a day and time that suits you. Time wasted: ZERO!</p>
                 </dd>
               </dl>  
               </div>
-              <div className="td">
+              <div className="td about">
               <dl>
                 <dt>
                   <img src={Icon4}  alt="Our Approach Icon"/>
@@ -56,8 +56,8 @@ export default function ourApproach() {
                   <img src={Icon1} alt="Our Approach Icon"/>
                 </dt>
                 <dd>
-                  <h4>MAX RESULTS IN UNDER 60 MINUTES</h4>
-                  <p>Combines resistance training and conditioning exercises for a complete, full body workout in under 60 minutes.</p>
+                  <h4>3 SESSIONS FOR £99</h4>
+                  <p>Are you ready for the ultimate version of you? We offer a range of Holistic Health services, including osteopathy, dry needling, massage, pilates and more!</p>
                 </dd>
               </dl>
             

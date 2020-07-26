@@ -373,6 +373,11 @@ iframe.iframeVideo{
   display: table-cell;
   vertical-align: middle;
 }
+.td.about{
+  vertical-align: top;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .classList{
   padding-top: 60px;
 }
