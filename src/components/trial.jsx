@@ -19,7 +19,9 @@ export default function Trial() {
                 <div className="white center">
                      
                     <h2 class="freeTrial">7 Day Trial</h2>
-                    <p>Test drive our gym, meet the team and experience our inclusive culture. We’ll help you rediscover your fitness mojo and get the results that you want.</p>
+                    <p> 3 Personal Trainer Sessions for £99.<br />
+                    In-Body Analysis | Goal Assessment | Nutritional Layout | Diet Plans | Plus More<br />
+                    </p>
                     <a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white"><span>Get Started</span></a>
                  
                     </div>
