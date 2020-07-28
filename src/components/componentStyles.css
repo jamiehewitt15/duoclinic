@@ -264,7 +264,7 @@ iframe.iframeVideo{
   height: 504px;
 }
 .hero.mini.findus{
-  background-image: url("./images/duoclinicoutside2.png");
+  background-image: url("./images/bw-duclinic-outside.jpg");
   background-size: cover;
 }
 .hero.findus {
@@ -336,6 +336,9 @@ iframe.iframeVideo{
 }
 .heading.inner{
   max-width: 1200px;
+}
+.inner.white.findUs{
+  background: rgba(0, 0, 0, 0.5);
 }
 .backgroundVideo{
   position: relative;

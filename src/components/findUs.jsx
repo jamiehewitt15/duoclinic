@@ -10,7 +10,7 @@ export default function Findus() {
     <div className="middle" >
         <div className="holder">
         <div className="white center">
-            <div className="inner white">
+            <div className="inner white findUs">
             <h2>Where to find us</h2>
             <div className="sub">
                 <p>2 - 8 Dawes Road<br /> FULHAM <br />LONDON W6 7EN</p>
