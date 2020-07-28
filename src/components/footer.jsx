@@ -30,7 +30,7 @@ export default function Footer() {
               <div className="frow3">
                 <div className="newsletter">
                   <h4>Get a Call Back</h4>	
-                  <form acceptCharset="UTF-8" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd2C0k__JuWiMeAfDAOJIKDnt3uFcLkzb4Q_CTF0v7ObFdghA/formResponse" className="infusion-form" id="inf_form_c94572c3a561ac03c4f386844d722a41" method="POST">
+                  <form target="_blank" acceptCharset="UTF-8" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd2C0k__JuWiMeAfDAOJIKDnt3uFcLkzb4Q_CTF0v7ObFdghA/formResponse" className="infusion-form" id="inf_form_c94572c3a561ac03c4f386844d722a41" method="POST">
                     <input name="inf_form_xid" type="hidden" defaultValue="c94572c3a561ac03c4f386844d722a41" />
                     <input name="inf_form_name" type="hidden" defaultValue="Web Form submitted" />
                     <input name="infusionsoft_version" type="hidden" defaultValue="1.70.0.200651" />
