@@ -3,6 +3,7 @@ import FindUs from "../components/findUs.jsx"
 import FAQ from "../components/faq.jsx"
 import Hero from "../components/aboutHero.jsx"
 import OurApproach from "../components/ourApproach.jsx"
+import Team from "../components/team.jsx"
 
 
 function AboutPage() {
@@ -11,6 +12,7 @@ function AboutPage() {
       <Hero />
       <OurApproach />
       <FAQ />
+      <Team />
       <FindUs />
     </ div>
   );

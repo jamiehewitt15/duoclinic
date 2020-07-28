@@ -340,6 +340,13 @@ iframe.iframeVideo{
 .inner.white.findUs{
   background: rgba(0, 0, 0, 0.5);
 }
+.headshot{
+  width: 90%;
+}
+.teamSection{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .backgroundVideo{
   position: relative;
   right: 0;

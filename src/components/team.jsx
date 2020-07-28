@@ -7,20 +7,21 @@ import image4 from "./images/headshots/4.png"
 
 export default function Team() {
     return (
-        <section>
+        <section className="teamSection">
+          <h2 className="specialHeading blue">Our Team</h2>
           <div className="table">
             <div className="tr">
             <div className="td">
-              <img  src={image1} alt="Duo Clinic gym trainer headshot" />
+              <img className="headshot"  src={image1} alt="Duo Clinic gym trainer headshot" />
             </div>
             <div className="td">
-              <img  src={image2} alt="Duo Clinic gym trainer headshot" />
+              <img className="headshot" src={image2} alt="Duo Clinic gym trainer headshot" />
             </div>
             <div className="td">
-              <img  src={image3} alt="Duo Clinic gym trainer headshot" />
+              <img className="headshot" src={image3} alt="Duo Clinic gym trainer headshot" />
             </div>
             <div className="td">
-              <img  src={image4} alt="Duo Clinic gym trainer headshot" />
+              <img className="headshot" src={image4} alt="Duo Clinic gym trainer headshot" />
             </div>
             </div>
           </div>
