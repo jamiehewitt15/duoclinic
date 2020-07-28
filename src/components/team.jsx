@@ -13,15 +13,23 @@ export default function Team() {
             <div className="tr">
             <div className="td">
               <img className="headshot"  src={image1} alt="Duo Clinic gym trainer headshot" />
+                  <div className="no desktop tablet title">Chloe Gibson</div>
+                  <h4><div className="mobile no">Chloe Gibson</div></h4>
             </div>
             <div className="td">
               <img className="headshot" src={image2} alt="Duo Clinic gym trainer headshot" />
+                  <div className="no desktop tablet title">Rob Blackwell</div>
+                  <h4><div className="mobile no">Rob Blackwell</div></h4>
             </div>
             <div className="td">
               <img className="headshot" src={image3} alt="Duo Clinic gym trainer headshot" />
+                  <div className="no desktop tablet title">Jodie Doyle</div>
+                  <h4><div className="mobile no">Jodie Doyle</div></h4>
             </div>
             <div className="td">
               <img className="headshot" src={image4} alt="Duo Clinic gym trainer headshot" />
+                  <div className="no desktop tablet title">Neville Kenwright</div>
+                  <h4><div className="mobile no">Neville Kenwright</div></h4>
             </div>
             </div>
           </div>
