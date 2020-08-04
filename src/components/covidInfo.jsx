@@ -2,6 +2,7 @@ import React from "react"
 import "./componentStyles.css"
 import Fulhamdrink from "./images/Fulhamdrink.jpg"
 import F45FulhamWeights from "./images/F45FulhamWeights.jpg"
+import covid from "./images/covid.png"
 
 
 export default function covidInfo() {
@@ -19,7 +20,7 @@ export default function covidInfo() {
     <div className="holder">
       <dl className="dual">
         <dt>
-          <p><img alt="Fulham duo clinic drink" src={Fulhamdrink} className="aligncenter size-full " /></p>
+          <p><img alt="Fulham duo clinic drink" src={covid} className="aligncenter size-full " /></p>
         </dt>
         <dd className="middle">
           <div className="inside">
