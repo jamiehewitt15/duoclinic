@@ -4,6 +4,7 @@ import FAQ from "../components/faq.jsx"
 import Hero from "../components/aboutHero.jsx"
 import OurApproach from "../components/ourApproach.jsx"
 import Team from "../components/team.jsx"
+import Video from "../components/videos.jsx"
 
 
 function AboutPage() {
@@ -11,8 +12,9 @@ function AboutPage() {
     <div className="App">
       <Hero />
       <OurApproach />
-      <FAQ />
       <Team />
+      <FAQ />
+      <Video />
       <FindUs />
     </ div>
   );
