@@ -167,7 +167,7 @@ section.findus {
 }
 h5{
   color: #29888e;
-    font-family: 'Roboto Mono', monospace !important;
+  font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
 }
 .line {
@@ -211,7 +211,7 @@ dl.dual img {
 .covidTitle{
   font-size: 25px;
   color: #29888e;
-  font-family: 'Roboto Mono', monospace !important;
+  font-family: 'Montserrat', sans-serif !important;
   font-weight: 400;
 }
 p, input, select, li {
@@ -246,7 +246,7 @@ ol li {
 }
 .hero h2{
   text-shadow: 2px 2px 2px #397175;
-  font-family: 'Roboto Mono', monospace !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 .wistia_responsive_padding{
   padding: '50% 0 0 0';
@@ -342,10 +342,14 @@ iframe.iframeVideo{
 }
 .headshot{
   width: 90%;
+  vertical-align: bottom;
+  margin-bottom: -2px;
+}
+.table.team{
+  margin-top: 30px;
 }
 .teamSection{
   padding-top: 60px;
-  padding-bottom: 60px;
   background: #f2f2f2;
 }
 .backgroundVideo{
@@ -385,6 +389,7 @@ iframe.iframeVideo{
 .td{
   display: table-cell;
   vertical-align: middle;
+  overflow: hidden;
 }
 .td.about{
   vertical-align: top;
@@ -479,7 +484,7 @@ iframe.iframeVideo{
   }
   .mobile.no{
     color: #29888e;
-    font-family: 'Roboto Mono', monospace !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
   }
   .numberblock dl.right dt img, .numberblock dl dt img {
