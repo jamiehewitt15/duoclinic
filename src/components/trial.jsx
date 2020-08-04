@@ -1,7 +1,7 @@
 import React from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
-import trialVideo from "./videos/Video1.mp4"
+import trialVideo from "./videos/Video1-full.mp4"
 
 export default function Trial() {
       return (      

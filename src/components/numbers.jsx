@@ -9,6 +9,10 @@ import image4 from "./images/method-draw-image-4.svg"
 export default function Numbers() {
       return (      
         <section id="numbers" className="numbers light">
+        <ul className="buttons">
+          <li><a href="#numbers" className="button white"><span class="heroButton">Learn More</span></a></li>
+          <li><a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white"><span class="heroButton">Get Started</span></a></li>
+        </ul>
         <div className="holder">
           <div className="heading b64">
             <h2 className="specialHeading blue">What makes personal training<br /> at Duo Clinic so different?</h2>

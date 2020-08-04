@@ -3,7 +3,7 @@ import React, { Component } from "react"
 import "./componentStyles.css"
 import "./styles/header.css"
 import "./styles/plugin.css"
-import mainVideo from "./videos/mainVideo.mp4"
+import mainVideo from "./videos/duoBannerWebsite.mov"
 
 
 export default class contactHero extends Component {
@@ -40,10 +40,6 @@ export default class contactHero extends Component {
             <div className="mobile">
               <h2>Get in the best<br /> shape of your life</h2>
             </div>
-            <ul className="buttons">
-              <li><a href="#numbers" className="button white"><span class="heroButton">Learn More</span></a></li>
-              <li><a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white"><span class="heroButton">Get Started</span></a></li>
-            </ul>
           </div>
           </div>
 

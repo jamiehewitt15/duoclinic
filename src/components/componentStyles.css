@@ -232,7 +232,7 @@ ol li {
   height:70px !important
 }
 .hero.home{
-  background-image: url("./images/Background.jpg");
+  /* background-image: url("./images/Background.jpg"); */
 }
 .contactBackground{
   background-image: url("./images/FulhamPeople.jpg");
@@ -356,8 +356,8 @@ iframe.iframeVideo{
   position: relative;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100vw;
+  height: auto;
 }
 .trialVideo{
   position: relative;
@@ -409,7 +409,9 @@ iframe.iframeVideo{
   margin-bottom: 40px;
   width: 90%;
 }
-
+#numbers{
+  margin-top: -5px;
+}
 
 
 

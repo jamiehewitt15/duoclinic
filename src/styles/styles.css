@@ -27,7 +27,7 @@ body.home .hero.trial .middle{
 .hero.home {
     /* background: url('images/home/heroHomeDesktop.jpg'); */
     background-size: cover;
-    height: 100vh;
+    height: auto;
 }
 
 html {
@@ -1286,6 +1286,7 @@ width: 100%;
 }
 
 ul.buttons {
+    padding-top: 30px;
     margin: 0px auto;
     display: table;
 }
@@ -1313,8 +1314,8 @@ ul.buttons li:last-of-type {
     display: inline-block;
     line-height: 1;
     width: auto;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    color: #397175;
+    border: 2px solid #397175;
     border-radius: 56px;
     text-decoration: none;
     font-family: sans-serif;
@@ -1332,9 +1333,9 @@ ul.buttons li:last-of-type {
     -webkit-transition: background-position .4s ease-in-out,color .4s ease-in-out;
     -o-transition: background-position .4s ease-in-out,color .4s ease-in-out;
     transition: background-position .4s ease-in-out,color .4s ease-in-out;
-    background-image: -webkit-linear-gradient(45deg,#ffffff,#ffffff 50%,transparent 0);
-    background-image: -o-linear-gradient(45deg,#ffffff 0,#ffffff 50%,transparent 50%);
-    background-image: linear-gradient(45deg,#ffffff,#ffffff 50%,transparent 0);
+    background-image: -webkit-linear-gradient(45deg,#29888e,#29888e 50%,transparent 0);
+    background-image: -o-linear-gradient(45deg,#29888e 0,#29888e 50%,transparent 50%);
+    background-image: linear-gradient(45deg,#29888e,#29888e 50%,transparent 0);
     background-size: 250% 100%;
     background-position: 100%;
 }
@@ -1477,7 +1478,7 @@ input[type="email"] {
 .numberblock {
     margin: 0px auto 0;
     /* background: url(img/pixel.png) center center repeat-y; */
-    padding: 0px 0 100px 0;
+    padding: 0px 0 20px 0;
     width: 980px;
 }
 
