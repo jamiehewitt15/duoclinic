@@ -20,7 +20,7 @@ export default function covidInfo() {
     <div className="holder">
       <dl className="dual">
         <dt>
-          <p><img alt="Fulham duo clinic drink" src={covid} className="aligncenter size-full " /></p>
+          <p><img alt="Fulham duo clinic drink" src={covid} className="aligncenter size-full covidImg" /></p>
         </dt>
         <dd className="middle">
           <div className="inside">
@@ -48,7 +48,7 @@ export default function covidInfo() {
       <dl className="dual right second">
         <div className="tablet mobile">
           <dt>
-            <p><img alt="F45 Fulham Weights" src={F45FulhamWeights} className="aligncenter size-full " /></p>
+            <p><img alt="F45 Fulham Weights" src={F45FulhamWeights} className="aligncenter size-full covidImg" /></p>
           </dt>
         </div>
         <dd className="middle">

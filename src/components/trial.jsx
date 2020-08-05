@@ -22,7 +22,7 @@ export default function Trial() {
                     <p> 3 Personal Trainer Sessions for £99.<br />
                     In-Body Analysis | Goal Assessment | Nutritional Layout | Diet Plans | Plus More<br />
                     </p>
-                    <a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white"><span>Get Started</span></a>
+                    <a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white whiteBtn"><span>Get Started</span></a>
                  
                     </div>
                 </div>  
