@@ -463,9 +463,10 @@ iframe.iframeVideo{
     background-image: url("./images/FulhamPeopleMobile.jpg");
   }
   .hero.home{
-    background-image: url("./images/BackgroundMobile.jpg");
+    /* background-image: url("./images/BackgroundMobile.jpg"); */
+    background: #f2f2f2;
     background-size: cover;
-    height: 80vh;
+    height: 40vh;
   }
   .hero h2 {
     line-height: 60px;
