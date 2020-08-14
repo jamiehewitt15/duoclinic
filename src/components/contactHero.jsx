@@ -12,7 +12,7 @@ export default class contactHero extends Component {
       render(){
         return(
           
-      <section className="hero home" >
+      <section className="hero home contactHero" >
         <div className="contactBackground">
         <div className="middle">
           <div className="desktop tablet">

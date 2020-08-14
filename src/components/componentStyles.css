@@ -573,6 +573,13 @@ iframe.iframeVideo{
 .servicesHero{
   height: 525px !important;
 }
+.contactHero{
+  display: none;
+}
+section.findus {
+  padding-top: 70px;
+  margin: 0px 0 0 0;
+}
 br{
   display: block !important;
 }
@@ -588,5 +595,8 @@ br{
 }
 .menuFooterLink{
   padding-left: 15px;
+}
+.hero.home{
+  height: 50vh;
 }
 }
