@@ -447,8 +447,15 @@ iframe.iframeVideo{
     margin-top: -4px;
   }
   .trialVideo {
+    display: none;
     max-width: 100vw;
     height: auto;
+  }
+  .trialSection {
+    width: 100%;
+    background-image: -webkit-linear-gradient(45deg, #397175 50%, #29888e 50%);
+    padding-right: 00px;
+    padding-left: 0px;
   }
   .freeTrial{
     font-size: 45px;
