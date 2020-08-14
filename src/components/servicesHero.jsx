@@ -5,7 +5,7 @@ import "./styles/plugin.css"
 
 export default function covidHero() {
       return (      
-        <div className="hero standard colours">
+        <div className="hero standard colours servicesHero">
         <div className="middle">
             <div className="holder">
             <div className="inner white">

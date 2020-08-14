@@ -570,6 +570,9 @@ iframe.iframeVideo{
   font-size: 37px;
   padding-bottom: 0px !important;
 }
+.servicesHero{
+  height: 525px !important;
+}
 br{
   display: block !important;
 }
