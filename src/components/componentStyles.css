@@ -470,8 +470,8 @@ iframe.iframeVideo{
     background-image: url("./images/FulhamPeopleMobile.jpg");
   }
   .personalTraining{
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 30px !important;
+    line-height: 35px !important;
   }
   .hero.home{
     /* background-image: url("./images/BackgroundMobile.jpg"); */
