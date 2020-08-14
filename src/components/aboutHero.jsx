@@ -24,7 +24,7 @@ export default class contactHero extends Component {
              </h2>
           </div>
           <div className="mobile">
-            <h2>GET STRONGER.<br />LIVE LONGER.<br/></h2>
+            <h2 class="mobileH2">GET STRONGER.<br />LIVE LONGER.<br/></h2>
           </div>
           </div>  
           </div>

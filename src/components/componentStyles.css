@@ -562,9 +562,13 @@ iframe.iframeVideo{
   dl.dual dd.middle {
     height: 100%;
     padding: 0 0px;
-}
+  }
 .aboutBackground{
-  padding-bottom: 80px;
+  height: 270px;
+}
+.mobileH2{
+  font-size: 37px;
+  padding-bottom: 0px !important;
 }
 br{
   display: block !important;
