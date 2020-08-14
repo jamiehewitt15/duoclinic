@@ -421,6 +421,11 @@ iframe.iframeVideo{
   padding-top: 60px;
 }
 
+@media only screen and (min-width: 1024px) {
+  #mobileTrial{
+    display: none !important;
+  }
+}
 
 
 /* #### Mobile Styles ##### */
@@ -609,5 +614,8 @@ br{
 }
 .hero.home{
   height: 50vh;
+}
+#desktopTrial{
+  display: none !important;
 }
 }

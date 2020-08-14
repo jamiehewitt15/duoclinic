@@ -5,15 +5,21 @@ import Trial from "../components/trial.jsx"
 import FindUs from "../components/findUs.jsx"
 import Video from "../components/videos.jsx"
 //import Featured from "./components/featured.js"
-
+import "../components/componentStyles.css"
 
 function Home() {
   return (
     <div className="App">
       <Hero />
-      <Trial />
+      <div id="mobileTrial">
+        <Trial />
+      </div>
+      
       <Video />
       <Numbers />
+      <div id="desktopTrial">
+        <Trial />
+      </div>
       
       <FindUs />
       {/* <Featured /> */}
