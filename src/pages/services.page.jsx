@@ -2,7 +2,6 @@ import React from 'react';
 import FindUs from "../components/findUs.jsx"
 import Hero from "../components/servicesHero.jsx"
 import Services from "../components/services.jsx"
-import ClassList from "../components/classList.jsx"
 
 
 function AboutPage() {
@@ -11,7 +10,6 @@ function AboutPage() {
       <Hero />
       <Services />
       <FindUs />
-      <ClassList />
       
     </ div>
   );

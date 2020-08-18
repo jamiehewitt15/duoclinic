@@ -566,7 +566,7 @@ body.home .hero.trial {
 }
 
 .hero.standard {
-    height: 450px;
+    height: 360px;
 }
 
 .hero.short {
@@ -603,7 +603,7 @@ body.home .hero.trial {
 
 .hero.standard.colours .middle {
     display: block;
-    padding: 210px 0 0 0;
+    padding: 120px 0 0 0;
 }
 
 /* about */
