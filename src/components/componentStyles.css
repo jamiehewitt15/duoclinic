@@ -430,7 +430,7 @@ iframe.iframeVideo{
   }
 }
 .contactHero{
-  height: 700px;
+  height: 700px !important;
 }
 
 /* #### Mobile Styles ##### */
