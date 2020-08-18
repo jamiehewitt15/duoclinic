@@ -389,7 +389,7 @@ iframe.iframeVideo{
 }
 .td{
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
   overflow: hidden;
 }
 .td.about{

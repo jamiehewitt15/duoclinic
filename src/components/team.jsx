@@ -28,7 +28,9 @@ export default function Team() {
               </div>
             <div className="td">
                 <div className="no desktop tablet title">Chloe Gibson</div>
+                <div className="chloe">
               <img className="headshot"  src={image1} alt="Duo Clinic gym trainer headshot" />
+                </div>
                   <h4><div className="mobile no">Chloe Gibson</div></h4>
             </div>
             
