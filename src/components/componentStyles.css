@@ -379,6 +379,7 @@ iframe.iframeVideo{
   background-image: -webkit-linear-gradient(45deg, #397175 50%, #29888e 50%);
   padding-right: 20px;
   padding-left: 20px;
+  vertical-align: middle !important;
 }
 .chloe{
 
@@ -465,6 +466,7 @@ iframe.iframeVideo{
     background-image: -webkit-linear-gradient(45deg, #397175 50%, #29888e 50%);
     padding-right: 00px;
     padding-left: 0px;
+    vertical-align: middle !important;
   }
   .freeTrial{
     font-size: 45px;
@@ -472,6 +474,7 @@ iframe.iframeVideo{
   }
   .trialSection{
     padding-bottom: 30px;
+    vertical-align: middle !important;
   }
   .contactBackground {
     background-size: cover;
