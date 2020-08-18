@@ -10,8 +10,9 @@ export default function Footer() {
               <div className="frow1">
                 <ul>
                   <li class="footerList"><a href="/getstarted/">Get Started</a></li> 
-                  <li class="footerList"><a href="/timetable/">Classes</a></li>   
-                  <li class="footerList"><a href="/about/">About</a></li> 
+                  <li class="footerList"><a href="/about/">About</a></li>
+                  <li class="footerList"><a href="/services/">Services</a></li>   
+                  <li class="footerList"><a href="/timetable/">Classes</a></li>  
                   <li class="footerList"><a href="/contact/">Contact</a></li> 
                   <li class="footerList"><a href="mailto: info@duoclinic.co">Email us</a></li> 
                 </ul>
