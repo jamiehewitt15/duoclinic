@@ -12,7 +12,7 @@ export default function Contact() {
                 <p>2 - 8 DAWES ROAD<br />
                 FULHAM<br />
                 London, 
-                W6 7EN<br />
+                SW6 7EW<br />
                 –<br />
                 020 3489 5428<br />
                 <a href="mailto:info@duoclinic.co">info@duoclinic.co</a><br />
@@ -31,7 +31,7 @@ export default function Contact() {
                 <div className="postcodeform">
                 <form action="http://maps.google.com/maps" method="get" target="_blank">
                     <input type="text" name="saddr" />
-                    <input type="hidden" name="daddr" defaultValue="F45 Fulham DAWES ROAD, FULHAM, LONDON, W6 7EN, United Kingdom" />
+                    <input type="hidden" name="daddr" defaultValue="F45 Fulham DAWES ROAD, FULHAM, LONDON, SW6 7EW, United Kingdom" />
                     <input type="submit" className="submitTriangle" defaultValue="Get directions" />
                 </form>
                 </div>

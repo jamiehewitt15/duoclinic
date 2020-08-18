@@ -13,7 +13,7 @@ export default function Findus() {
             <div className="inner white findUs">
             <h2>Where to find us</h2>
             <div className="sub">
-                <p>2 - 8 Dawes Road<br /> FULHAM <br />LONDON W6 7EN</p>
+                <p>2 - 8 Dawes Road<br /> FULHAM <br />LONDON SW6 7EW</p>
             </div>
             <p className="findUsSubTest">We are proud to provide West London with quality fitness training.</p>
             {/* <a href="/getstarted/" className="button white"><span>View Full Details</span></a> */}
