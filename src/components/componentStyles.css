@@ -380,7 +380,9 @@ iframe.iframeVideo{
   padding-right: 20px;
   padding-left: 20px;
 }
+.chloe{
 
+}
 .table{
   display: table;
 }
@@ -426,7 +428,9 @@ iframe.iframeVideo{
     display: none !important;
   }
 }
-
+.contactHero{
+  height: 700px;
+}
 
 /* #### Mobile Styles ##### */
 
