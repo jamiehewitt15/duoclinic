@@ -7,6 +7,7 @@ import {
 import './App.css';
 
 import Layout from "./components/layout.jsx"
+import ScrollToTop from "./components/scrollToTop.jsx"
 //import Featured from "./components/featured.js"
 
 /**
@@ -19,12 +20,15 @@ import About from './pages/about.page.jsx';
 import Services from './pages/services.page.jsx';
 import Classes from './pages/classes.page.jsx';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <main>
       <Router>
-      <Layout>
+      
+      
+      <ScrollToTop />
+      <Layout >
       <div>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -37,12 +41,11 @@ function App() {
           <Route path="/" component={Home} />
         </Switch>
       </div>
-    </Layout>
+     </Layout>
+    
+    
     </Router>
       </main>
     </div>
   );
 }
-
-
-export default App;
