@@ -494,6 +494,7 @@ iframe.iframeVideo{
   .hero h2 {
     line-height: 60px;
     padding-bottom: 20px;
+    font-size: 38px;
   }
   .specialHeading.blue{
     font-size: 35px;
@@ -624,5 +625,8 @@ br{
 }
 #desktopTrial{
   display: none !important;
+}
+.hero.home {
+  height: 30vh;
 }
 }
