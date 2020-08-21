@@ -14,7 +14,7 @@ export default class contactHero extends Component {
           
       <section className="hero home" >
         <div className="aboutBackground">
-        <div className="middle">
+        <div className="middle about">
           <div className="desktop tablet">
             <h2 className="cd-headline clip white"><span />
             <a href="" class="typewrite" data-period="2000" style={{ fontFamily: 'Montserrat' }} data-type='[ 
