@@ -475,7 +475,7 @@ p.PT{
 input.tryUsInput{
   display: block;
   padding: 5px;
-  width: 50%;
+  width: 60%;
   margin-bottom: 10px;
   font-weight: bold;
   color: #4d4d4d;
@@ -484,6 +484,18 @@ p.trialNumbers{
   margin-bottom: 40px !important;
   max-width: 60%;
   margin: auto;
+}
+p.PT.tryUs{
+  padding-bottom: 20px;
+}
+h2.PT.signUp{
+  text-align: right;
+}
+h3.PT.signUp{
+  text-align: right;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  color: #ffffff;
 }
 /* #### Desktop Only Styles ##### */
 @media only screen and (min-width: 780px) {

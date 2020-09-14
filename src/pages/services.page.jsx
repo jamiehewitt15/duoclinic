@@ -1,5 +1,5 @@
 import React from 'react';
-import FindUs from "../components/findUs.jsx"
+import PTSignUp from "../components/ptSignUp.jsx"
 import Services from "../components/services.jsx"
 import PersonalTrainer from "../components/personalTrainerHeader.jsx"
 
@@ -8,7 +8,7 @@ function AboutPage() {
     <div className="App">
       <PersonalTrainer />
       <Services />
-      <FindUs />
+      <PTSignUp />
       
     </ div>
   );

@@ -1,6 +1,7 @@
 import React from "react"
 import {  Link } from "react-router-dom";
 import "./componentStyles.css";
+import Arrowform from "./images/arrow-form.png"
 // import "./styles/fontsFP.css";
 
 export default function PersonalTrainer() {
@@ -12,12 +13,16 @@ export default function PersonalTrainer() {
               <div className="td trialSection PT">
               <div className="middle">
                 <div className="white center">
-                     
-                    <h2 class="PT"> MORE<br />
-                                    THAN YOUR<br />
-                                    TYPICAL<br />
-                                    GYM</h2>
-                    <p class="PT">Our unique environment offers a private space, moderen eqipment and premium personalised programming, we guarantee you won't find anywhere else... Plus, we've got onsite sports massage and osteopathy.</p>
+                <h3 class="PT signUp">  NOT GETTING<br />
+                                THE RESULTS YOU WANT<br />
+                                BY WORKING OUT ALONE?</h3>
+                    
+                    <h2 class="PT signUp"> GIVE<br />
+                                    PERSONAL<br />
+                                    TRAINING<br />
+                                    A TRY <br />
+                                    FOR FREE<br />
+                                  </h2>
                     
                     </div>
                 </div>  
@@ -38,12 +43,10 @@ export default function PersonalTrainer() {
                     <input className="infusion-field-input-container tryUsInput" id="inf_field_Email" name="entry.1783728626" type="text" placeholder="Service Required" />
                     <input className="infusion-field-input-container tryUsInput" type="submit" defaultValue="+" value='GET MY FREE PASS'/>
                   </form>
+                  <img src={Arrowform} alt="Arrow icon" className="desktop tablet" />
               </div>
             </div>
           </div>
-            
-            
-         
         </section>
 
       );
