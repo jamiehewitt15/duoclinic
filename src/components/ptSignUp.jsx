@@ -28,8 +28,8 @@ export default function PersonalTrainer() {
                 </div>  
               </div>
               <div className="td tryUsBackground">
-              <h2 class="PT blue"> GIVE US A TRY</h2>
-              <p class="PT tryUs"> TO GET YOUR FREE TRIAL
+             
+              <p class="PT tryUs pt"> TO GET YOUR FREE TRIAL
                               PASS OR THE 7 DAY PT
                               TRIAL, JUST LEAVE YOUR
                               DETAILS BELOW</p>

@@ -11,8 +11,10 @@ export default function aboutUsContent() {
   <section className id="why">
     <div className="holder">
       <div className="heading inner">
-        <h2 className="specialHeading blue">Osteopathy | Massage | Dry Needling | Pilates</h2>
-        <p>We also offer Group and Personal Training, personalised nutrition planning and more.</p>
+        <h2 className="specialHeading blue">Personal Training at Duo Clinic</h2>
+        <p > Personal Training at Duo Clinic is more than just a training session. We’re about helping you achieve your goals. 
+              <br /><br />Whether you're a beginner in need of a lifestyle change or a well-seasoned fitness competitor, our personal trainers are committed to giving you the best tools, guidance and ongoing support to ensure you achieve your health and fitness goals.</p>
+              
       </div>
     </div>
   </section>
