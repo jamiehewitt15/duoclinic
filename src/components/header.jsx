@@ -23,13 +23,14 @@ export default function Header() {
           <div className="links">
             
             <nav>
-            <a href="https://startyourfitness.co/dc-application-form" target="blank">Get Started</a>
             <Link to="/about" >About</Link>
-            <Link to="/services" >Services</Link>
-            <Link to="/classes" >Classes</Link>
+            <Link to="/services" >Personal Trainer</Link>
             <Link to="/contact" >Contact</Link>
             </nav>
           </div>  
+          <div id="covid-container">
+          <Link id="covid-link" to="/tryus">Try Us</Link>
+          </div>
           <a id="get-started" href="/getstarted/">Try Us</a>
         </div>
       );

@@ -19,6 +19,7 @@ import Covid from './pages/covid.page.jsx';
 import About from './pages/about.page.jsx';
 import Services from './pages/services.page.jsx';
 import Classes from './pages/classes.page.jsx';
+import Tryus from './pages/tryus.page.jsx';
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/classes" component={Classes} />
+          <Route path="/tryus" component={Tryus} />
           <Route path="/" component={Home} />
         </Switch>
       </div>
