@@ -6,42 +6,39 @@ import "./componentStyles.css"
         title: "FAQ",
         rows: [
             {
-                title: "Is This Crossfit/Bootcamp Training?",
-                content: `No. This is not CrossFit, Bootcamp or HIIT training. Our sessions are structured, personalized and incorporate a variety of techniques and exercises.`,
+                title: "What Covid-19 precautions have you put in place?",
+                content: `We have a comprehensive plan to maintain a safe and healthy gym environment, including regular sanitising and ensuring ample personal space.`,
             },
             {
-                title: "Is Duo Clinic for me?",
+                title: "What am I committing to when I sign up?",
                 content:
-                    "Our INNER CIRCLE Group Training is for anyone who is looking to strength train. For example, if your goal is weight loss, we will personalize the session by assigning a more metabolically demanding rep scheme with shorter rest periods. If your goal is athletic performance, we will implement specialized techniques focusing on strength and speed development",
+                    "No long-term commitments. You’re just paying for one our intro 3x PT in one week £99, and that’s it. Think of it as a no-strings tester that’ll help you make an informed decision about whether our gym is right for you and which membership might suit you best if you do decide to carry on.",
             },
             {
-                title: "How long are the sessions?",
-                content: `The INNER CIRCLE Group Training sessions are 55-minutes. Our Conditioning classes are 30 minutes. We do recommend arriving 10-15 minutes early if possible to complete our Dynamic Warm-Up prior to the session.`,
+                title: "Do I have to be fit?",
+                content: `No. Our members vary in age and fitness level. Yes, you’ll see some super-fit people here, but they all started somewhere. Your fitness goal is unique to you. We’ll assess your current level, personalise your programme and take it at a pace that works for you.`,
             },
             {
-                title: "How big are the classess?",
-                content: "Maximum capacity for our sessions is 6.",
+                title: "What if I have aches, pains or injuries?",
+                content: "No problem. Many of our members come to us with injuries or liferelated issues like joint niggles, back pain and post-baby abs. We’re not physiotherapists, but the team is highly experienced in creating programmes that work with, and ultimately improve, a wide range of conditions.",
             },
             {
-                title: "What do you for cardio?",
-                content: "Cardio should be in addition to a balanced strength training routine. We offer Conditioning sessions (aka cardio) on Wednesdays and Saturdays. It is a 30-minute workout incorporating modified Strongman equipment, animal walks and callisthenics.",
+                title: "What if I need to miss days during the 7 Day trial?",
+                content: "Don’t worry. If something comes up or you’re away for a few days, let us know, and we’ll happily extend the trial period.",
             },
             {
-                title: "Do I need to bring anything?",
-                content: "Please wear comfortable workout clothing, well supported athletic shoes and bring a water bottle.",
+                title: "What happens after the trial?",
+                content: "You’re free to choose. If you want to carry on and work with us to reach your fitness goals (80% of our trial members do), we’ll suggest the right membership option and programme going forward. If you decide that Duo Clinic isn’t for you, you can simply say goodbye. We’ll be sorry to see you go, but we accept that we can’t be all things to all people.",
             },
             {
-                title: "Do you have showers?",
-                content: "Yes. We have showers available with soap and towels. We also have lockers available for personal belongings.",
+                title: "What if I register then change my mind?",
+                content: "You’ll get your money back. No hassle, no questions, no hard feelings. The thought of forcing anyone into fitness is our worst nightmare.",
             },
             {
-                title: "When are your sessions?",
-                content: "We offer sessions Monday-Friday at 7AM, 8AM, 9AM, 12PM, 5PM, 6PM and 7PM. We also have sessions Saturday at 8AM and 9AM.",
+                title: "What are the ongoing membership costs?",
+                content: "Our package prices are all pay as you go so no long term commitment or monthly fees. And all our memberships include personal training, full assesments and nutrional guidance with your dedicated coachings support guiding you to stay on track and reach you fitness goals.",
             },
-            {
-                title: "Do you offer Nutrition?",
-                content: "Yes! Our Coaches are certified to provide Personlized Nutrition Guidance and Body Composition Assessments. We have both private and group nutritions available.",
-            },
+           
         ],
     };
      
