@@ -11,7 +11,7 @@ export default function Numbers() {
         <section id="numbers" className="numbers light">
         <ul className="buttons">
           <li><a href="/about/" className="button white"><span class="heroButton">Learn More</span></a></li>
-          <li><a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white"><span class="heroButton">Get Started</span></a></li>
+          <li><a href="./tryus" className="button white"><span class="heroButton">Try Us</span></a></li>
         </ul>
         <div className="holder">
           <div className="heading b64">

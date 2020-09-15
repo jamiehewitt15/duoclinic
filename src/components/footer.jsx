@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="frow">
               <div className="frow1">
                 <ul>
-                  <li class="footerList"><a href="/getstarted/">Get Started</a></li> 
+                  <li class="footerList"><a href="/tryus/">Try Us</a></li> 
                   <li class="footerList"><a href="/about/">About</a></li>
                   <li class="footerList"><a href="/services/">Services</a></li>   
                   <li class="footerList"><a href="/timetable/">Classes</a></li>  
