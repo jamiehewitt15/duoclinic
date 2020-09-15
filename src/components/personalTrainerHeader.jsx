@@ -15,13 +15,12 @@ export default function PersonalTrainer() {
                      
                     <h2 class="PT">FINDING IT HARD TO GET FIT ON YOUR OWN?</h2>
                     <p class="PT">Our world class PTs are ready to help you get fitter, leaner and stronger.</p>
-                    <a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white whiteBtn"><span>Get your FREE PT SESSION →</span></a>
+                    <a href="./tryus" className="button white whiteBtn"><span>Get your FREE PT SESSION →</span></a>
                  
                     </div>
                 </div>  
               </div>
               <div className="td ptImage">
-                
               </div>
             </div>
           </div>

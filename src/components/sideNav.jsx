@@ -22,20 +22,17 @@ class App extends React.Component {
       <Sidebar
         sidebar={
         <div className="sideBarMenu">
-          <Link id="covid-link" to="/covid">Our Covid-19 plan</Link>
-          <Link className="sideLink" to="/"><p>Home</p></Link>
-          <Link className="sideLink" to="/tryus"><p>Try Us</p></Link>
-          <Link className="sideLink" to="/about"><p>About</p></Link>
-          <Link className="sideLink" to="/services"><p>Personal Trainer</p></Link>
-          <Link className="sideLink" to="/classes"><p>Classes</p></Link>
-          <Link className="sideLink" to="/contact"><p>Contact Us</p></Link>
+          <Link id="covid-link" to="/covid" onClick={() => this.onSetSidebarOpen(false)} >Our Covid-19 plan</Link>
+          <Link className="sideLink" to="/" onClick={() => this.onSetSidebarOpen(false)} ><p>Home</p></Link>
+          <Link className="sideLink" to="/tryus" onClick={() => this.onSetSidebarOpen(false)} ><p>Try Us</p></Link>
+          <Link className="sideLink" to="/about" onClick={() => this.onSetSidebarOpen(false)} ><p>About</p></Link>
+          <Link className="sideLink" to="/services" onClick={() => this.onSetSidebarOpen(false)} ><p>Personal Trainer</p></Link>
+          <Link className="sideLink" to="/contact" onClick={() => this.onSetSidebarOpen(false)} ><p>Contact Us</p></Link>
           <ul className="menuFooterList">
           <li className="menuFooter"><a className="menuFooterLink" href="mailto: info@duoclinic.co">info@duoclinic.co</a></li> 
           <li className="menuFooter"><a className="menuFooterLink" href="tel:07900653068">07900 653068</a></li> 
           </ul>
         </div>
-          
-        
         }
         open={this.state.sidebarOpen}
         onSetOpen={this.onSetSidebarOpen}

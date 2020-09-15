@@ -6,11 +6,12 @@ import Arrowform from "./images/arrow-form.png"
 
 export default function PersonalTrainer() {
       return (
-        <section id="trial" className="hero mini trial" >
+        <section id="trial" className="hero mini trial ptSignUp" >
           <div className="table">
             <div className="tr">
               
               <div className="td trialSection PT">
+                
               <div className="middle">
                 <div className="white center">
                 <h3 class="PT signUp">  NOT GETTING<br />
@@ -28,7 +29,7 @@ export default function PersonalTrainer() {
                 </div>  
               </div>
               <div className="td tryUsBackground">
-             
+              <div className="tryUsOverlay pt">
               <p class="PT tryUs pt"> TO GET YOUR FREE TRIAL
                               PASS OR THE 7 DAY PT
                               TRIAL, JUST LEAVE YOUR
@@ -44,6 +45,7 @@ export default function PersonalTrainer() {
                     <input className="infusion-field-input-container tryUsInput" type="submit" defaultValue="+" value='GET MY FREE PASS'/>
                   </form>
                   <img src={Arrowform} alt="Arrow icon" className="desktop tablet" />
+              </div>
               </div>
             </div>
           </div>

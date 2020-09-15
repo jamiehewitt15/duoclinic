@@ -17,7 +17,7 @@ export default function PersonalTrainer() {
                                     THAN YOUR<br />
                                     TYPICAL<br />
                                     GYM</h2>
-                    <p class="PT">Our unique environment offers a private space, moderen eqipment and premium personalised programming, we guarantee you won't find anywhere else... Plus, we've got onsite sports massage and osteopathy.</p>
+                    <p class="PT">Our unique environment offers a private space, moderen eqipment and premium personalised programming, we guarantee you won't find anywhere else...<br /><br />Plus, we've got onsite sports massage and osteopathy.</p>
                     
                     </div>
                 </div>  

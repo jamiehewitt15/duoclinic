@@ -424,6 +424,9 @@ iframe.iframeVideo{
 #numbers{
   margin-top: -5px;
 }
+.tryUswhiteBtn{
+  font-family: 'Montserrat', sans-serif !important;
+}
 .whiteBtn{
   border: 2px solid #ffffff;
   color: #ffffff;
@@ -538,6 +541,21 @@ p.PT.tryUs.pt{
   padding-top: 100px;
   padding-bottom: 30px;
 }
+.aboutSignUp{
+  background-image: -webkit-linear-gradient(-45deg, #397175 50%, #29888e 50%);
+  text-align: center !important;
+  padding: 40px;
+}
+h2.PT.team{
+  text-align: center !important;
+}
+p.PT.about{
+  text-align: center !important;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px
+}
 /* #### Desktop Only Styles ##### */
 @media only screen and (min-width: 780px) {
   .td.tryUsBackground.ptMain{
@@ -547,7 +565,13 @@ p.PT.tryUs.pt{
   .td.trialSection.PT {
     width: 50%;
   }
-
+  .tryUsOverlay.pt{
+    height: 850px;
+  }
+  .hero.mini.trial.ptSignUp{
+    height: 850px;
+    overflow: hidden;
+  }
   #mobileTrial{
     display: none !important;
   }
@@ -566,6 +590,12 @@ p.PT.tryUs.pt{
   }
   .smallLogo{
     margin-top: 0px;
+  }
+  p.PT.about{
+    width: 100%;
+  }
+  .aboutSignUp {
+    padding: 20px;
   }
   h2.trialNumbers{
     font-size: 30px;
@@ -718,6 +748,7 @@ p.PT.tryUs.pt{
   }
   .faqDiv {
     width: 350px;
+    text-align: left;
   }
   dl.dual dd.middle {
     height: 100%;
@@ -727,9 +758,7 @@ p.PT.tryUs.pt{
   height: 270px;
 }
 .mobileH2{
-  font-size: 35px !important;
-  padding-top: 55px !important;
-  padding-bottom: 0px !important;
+  display: none;
 }
 .servicesHero{
   height: 525px !important;
