@@ -9,7 +9,7 @@ export default function Trial() {
           <div className="table">
             <div className="tr">
               <div className="td">
-                <video className="trialVideo" muted autoPlay loop controls>
+                <video className="trialVideo" loop controls>
                   <source src={trialVideo} type="video/mp4" />
                 </video>
               </div>
@@ -22,7 +22,7 @@ export default function Trial() {
                     <p> 3 Personal Trainer Sessions for £99.<br />
                     In-Body Analysis | Goal Assessment | Nutritional Layout | Diet Plans | Plus More<br />
                     </p>
-                    <a href="https://startyourfitness.co/dc-application-form" target="blank" className="button white whiteBtn"><span>Get Started</span></a>
+                    <a href="./tryus" className="button white whiteBtn"><span>Get Started</span></a>
                  
                     </div>
                 </div>  
