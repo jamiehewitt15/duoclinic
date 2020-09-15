@@ -445,11 +445,13 @@ h2.PT.signUp.f40{
   line-height: 45px;
 }
 .td.trialSection.PT{
-  padding-top: 10%;
+  padding-top: 120px;
   padding-bottom: 10%;
 }
 p.PT.tryUs.small{
-font-size: 16px;
+font-size: 18px;
+color: #ffffff;
+font-weight: 100;
 }
 h2.PT{
   font-weight: 900;
@@ -457,6 +459,16 @@ h2.PT{
   font-size: 80px;
   line-height: 80px;
   font-family: 'Roboto Condensed', sans-serif !important;
+}
+img.desktop.tablet.arrowPT{
+  float: right;
+  margin-right: -15px;
+  transform: rotate(20deg);
+}
+#arrorwPT{
+  float: right;
+  margin-right: -15px;
+  transform: rotate(20deg);
 }
 p.PT{
   font-weight: 500;
@@ -476,9 +488,21 @@ p.PT{
   height: 100%;
 }
 .td.tryUsBackground{
-  background-color: #4d4d4d;
+  background-image: url("./images/FulhamBoxing.jpg");
+  background-size: cover;
   vertical-align: top;
-  padding-top: 10%;
+}
+.td.ptMain.grey{
+  background-color: rgb(77, 77, 77); 
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  vertical-align: top;
+}
+.tryUsOverlay{
+  background-color: rgb(77, 77, 77, 0.8); 
+  height: 100vh;
+  padding-top: 120px;
   padding-right: 20px;
   padding-left: 20px;
 }

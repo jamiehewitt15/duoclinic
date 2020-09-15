@@ -23,6 +23,7 @@ export default function PersonalTrainer() {
                 </div>  
               </div>
               <div className="td tryUsBackground">
+                <div className="tryUsOverlay">
               <h2 class="PT blue"> GIVE US A TRY</h2>
               <p class="PT tryUs"> TO GET YOUR FREE TRIAL
                               PASS OR THE 7 DAY PT
@@ -38,6 +39,7 @@ export default function PersonalTrainer() {
                     <input className="infusion-field-input-container tryUsInput" id="inf_field_Email" name="entry.1783728626" type="text" placeholder="Service Required" />
                     <input className="infusion-field-input-container tryUsInput" type="submit" defaultValue="+" value='GET MY FREE PASS'/>
                   </form>
+                  </div>
               </div>
             </div>
           </div>
