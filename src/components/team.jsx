@@ -42,7 +42,7 @@ export default function Team() {
                      
                     <h2 class="PT team">GET YOUR 7 DAY TRIAL</h2>
                     <p class="PT about">Test drive the Duo Clinic experience, meet the team and enjoy our inclusive culture. We’ll help you rediscover your fitness mojo and get the results that you want.</p>
-                    <a href="./tryus"  className="button white whiteBtn"><span className="tryUswhiteBtn">Try Us →</span></a>
+                    <a href="/tryus"  className="button white whiteBtn"><span className="tryUswhiteBtn">Try Us →</span></a>
                  
                 </div>  
               </div>
