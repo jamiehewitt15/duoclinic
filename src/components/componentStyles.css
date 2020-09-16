@@ -696,6 +696,9 @@ p.PT.about{
   #covid-container{
     display: none;
   }
+  .tryUsOverlay {
+    padding-top: 40px;
+  }
   .sideLink.top{
     padding-top: 30px !important;
   }
