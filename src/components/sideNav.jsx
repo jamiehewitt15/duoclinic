@@ -22,8 +22,8 @@ class App extends React.Component {
       <Sidebar
         sidebar={
         <div className="sideBarMenu">
-          <Link id="covid-link" to="/covid" onClick={() => this.onSetSidebarOpen(false)} >Our Covid-19 plan</Link>
-          <Link className="sideLink" to="/" onClick={() => this.onSetSidebarOpen(false)} ><p>Home</p></Link>
+          <Link className="sideLinkCovid" id="covid-link" to="/covid" onClick={() => this.onSetSidebarOpen(false)} >Our Covid-19 plan</Link>
+          <Link className="sideLink top" to="/" onClick={() => this.onSetSidebarOpen(false)} ><p>Home</p></Link>
           <Link className="sideLink" to="/tryus" onClick={() => this.onSetSidebarOpen(false)} ><p>Try Us</p></Link>
           <Link className="sideLink" to="/about" onClick={() => this.onSetSidebarOpen(false)} ><p>About</p></Link>
           <Link className="sideLink" to="/services" onClick={() => this.onSetSidebarOpen(false)} ><p>Personal Trainer</p></Link>

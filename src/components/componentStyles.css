@@ -696,6 +696,9 @@ p.PT.about{
   #covid-container{
     display: none;
   }
+  .sideLink.top{
+    padding-top: 30px !important;
+  }
   #covid-link{
     margin-bottom: 20px !important;
     margin-right: 40px !important;
