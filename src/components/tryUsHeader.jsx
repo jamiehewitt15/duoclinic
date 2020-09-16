@@ -5,7 +5,7 @@ import "./componentStyles.css";
 
 export default function PersonalTrainer() {
       return (
-        <section id="trial" className="hero mini trial" >
+        <section id="trial" className="hero mini trial tryUsHeader" >
           <div className="table">
             <div className="tr">
               
@@ -23,7 +23,7 @@ export default function PersonalTrainer() {
                 </div>  
               </div>
               <div className="td tryUsBackground">
-                <div className="tryUsOverlay">
+                <div className="tryUsOverlay Header">
               <h2 class="PT blue"> GIVE US A TRY</h2>
               <p class="PT tryUs"> TO GET YOUR FREE TRIAL
                               PASS OR THE 7 DAY PT

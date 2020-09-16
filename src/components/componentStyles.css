@@ -558,6 +558,16 @@ p.PT.about{
 }
 /* #### Desktop Only Styles ##### */
 @media only screen and (min-width: 780px) {
+  .hero.mini.trial.tryUsHeader{
+    height: 100vh !important;
+    min-height: 700px;
+  }
+  .tryUsOverlay.Header{
+    height: 100%;
+  }
+  .table {
+    height: 100%;
+  }
   .td.tryUsBackground.ptMain{
     padding-top: 5%;
     width: 50%;
