@@ -26,6 +26,8 @@ export default function Header() {
             <Link to="/about" >About</Link>
             <Link to="/services" >Personal Trainer</Link>
             <Link to="/contact" >Contact</Link>
+            <Link to="/duoclinic" >Services</Link>
+            <a href="https://duoclinic.ptminder.com/" target="blank">Login</a>
             </nav>
           </div>  
           <div id="covid-container">
