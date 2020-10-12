@@ -27,6 +27,8 @@ class App extends React.Component {
           <Link className="sideLink" to="/about" onClick={() => this.onSetSidebarOpen(false)} ><p>About</p></Link>
           <Link className="sideLink" to="/services" onClick={() => this.onSetSidebarOpen(false)} ><p>Personal Trainer</p></Link>
           <Link className="sideLink" to="/contact" onClick={() => this.onSetSidebarOpen(false)} ><p>Contact Us</p></Link>
+          <Link className="sideLink" to="/duoclinic" onClick={() => this.onSetSidebarOpen(false)} ><p>Services</p></Link>
+          <a className="sideLink" target="blank" href="https://duoclinic.ptminder.com/" ><p>Login</p></a>
           <Link className="sideLink" to="/tryus" onClick={() => this.onSetSidebarOpen(false)} ><p>Try Us</p></Link>
           <ul className="menuFooterList">
           <li className="menuFooter"><a className="menuFooterLink" href="mailto: info@duoclinic.co">info@duoclinic.co</a></li> 
